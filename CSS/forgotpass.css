@@ -1,0 +1,100 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    display: flex;
+}
+.submain{
+    display: flex;
+    width: 30%;
+    flex-direction: column;
+}
+
+#carouselExampleCaptions{
+    width: 70%;
+    height: 100%;
+}
+.carousel-item img{
+    height: 100vh;
+}
+.carousel-item{
+    transition: transform .4s !important
+}
+
+
+
+.formdiv{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+
+}
+#fptxt{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 450;
+}
+#fptxt1 {
+    text-align: center;
+    font-size: 12px;
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 7%;
+}
+.btn-danger {
+    color: orange ! important;
+    background-color: white !important;
+    border-color: orange !important;
+    width: 100%;
+    border-radius: 20px !important;
+}
+#logi {
+    color: black;
+    /* font-weight: strong; */
+    text-decoration: none;
+    text-align: center;
+    margin-top: 5%;
+}
+.btn{
+    margin-top: 10px;
+}
+
+#pp{
+    text-decoration: none;
+    color: gainsboro;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+@media screen and (max-width:1000px) {
+    .main{
+        flex-direction: column;
+    }
+    .carousel-item img{
+        height: unset;
+    }
+    .carousel{
+        width: 100% !important;
+    } 
+    .submain{
+        margin: 20px auto;
+        width: 70%;
+    }
+    .formdiv{
+        width: 89%;
+    }
+    #pp{
+        margin-bottom: 0;
+        margin-top: 20%;
+    }
+}
+@media screen and (max-width:470px) {
+    .submain{
+        margin: 40px auto;}
+    #pp{
+        margin-bottom: 0;
+        margin-top: 60%;
+    }
+}
