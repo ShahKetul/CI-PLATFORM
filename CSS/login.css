@@ -10,7 +10,11 @@
     width: 30%;
     flex-direction: column;
 }
-
+.carousel-indicators button{
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+}
 #carouselExampleCaptions{
     width: 70%;
     height: 100%;
