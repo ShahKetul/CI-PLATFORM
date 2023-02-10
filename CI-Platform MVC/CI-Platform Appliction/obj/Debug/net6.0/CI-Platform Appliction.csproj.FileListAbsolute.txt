@@ -1,0 +1,26 @@
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\bin\Debug\net6.0\appsettings.Development.json
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\bin\Debug\net6.0\appsettings.json
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\bin\Debug\net6.0\CI-Platform Appliction.staticwebassets.runtime.json
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\bin\Debug\net6.0\CI-Platform Appliction.exe
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\bin\Debug\net6.0\CI-Platform Appliction.deps.json
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\bin\Debug\net6.0\CI-Platform Appliction.runtimeconfig.json
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\bin\Debug\net6.0\CI-Platform Appliction.dll
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\bin\Debug\net6.0\CI-Platform Appliction.pdb
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\CI-Platform Appliction.csproj.AssemblyReference.cache
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\CI-Platform Appliction.GeneratedMSBuildEditorConfig.editorconfig
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\CI-Platform Appliction.AssemblyInfoInputs.cache
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\CI-Platform Appliction.AssemblyInfo.cs
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\CI-Platform Appliction.csproj.CoreCompileInputs.cache
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\CI-Platform Appliction.MvcApplicationPartsAssemblyInfo.cache
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\CI-Platform Appliction.RazorAssemblyInfo.cache
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\CI-Platform Appliction.RazorAssemblyInfo.cs
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\staticwebassets.build.json
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\staticwebassets.development.json
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\scopedcss\bundle\CI-Platform Appliction.styles.css
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\scopedcss\projectbundle\CI-Platform Appliction.bundle.scp.css
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\CI-Platform Appliction.dll
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\refint\CI-Platform Appliction.dll
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\CI-Platform Appliction.pdb
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\CI-Platform Appliction.genruntimeconfig.cache
+E:\CI-Paltform-training project\CI-Platform MVC\CI-Platform Appliction\obj\Debug\net6.0\ref\CI-Platform Appliction.dll
