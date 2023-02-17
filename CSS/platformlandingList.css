@@ -1,0 +1,157 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown a img{
+    width: 50px;
+    height: 50px;
+}
+
+#prof-drop{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+}
+
+#search-border{
+    border: none;
+}
+
+#navbarSupportedContent{
+    width:240px;
+}
+.drop-img{
+    max-height: 10px;
+    max-width: 10px;
+}
+#rowpadd{
+    padding-left: 7%;
+}
+.explo{
+    display: flex;
+    justify-content: space-between;
+}
+.submain{
+    display: flex;
+    justify-content:space-between;
+}
+.theme{
+    border: 1px solid white;
+    border-radius: 24px;
+    background-color: white;
+    position: relative;
+    bottom: 5%;
+    left: 35%;
+}
+.health-nu-chil{
+    border: 1px solid white;
+    border-radius: 24px;
+    background-color: white;
+    position: relative;
+    bottom: 4%;
+    left: 37%;
+
+}
+.row1{
+    display: flex;
+    justify-content: space-between;
+}
+.star{
+    max-width: 20px;
+}
+.star-margin{
+    margin-left: 7px;
+}
+.star-txt{
+    display: flex;
+}
+.datec{
+    border-radius: 24px;
+}
+.app{
+    border-radius: 24px;
+    border-color: orange !important;
+    color: orange;
+}
+.row2{
+    display: flex;
+    justify-content: space-between;
+}
+.img1{
+    width: 25px;
+    height: 25px;
+}
+@media  only screen and (max-width:992px){
+    .datec{
+        font-size: 12px;
+        padding:2px 3px 2px 3px;
+    }
+    .star{
+        width: 10px;
+        height: 20px;
+        margin-top: 4px;
+    }
+    .star-margin{
+        margin-left: 9px;
+    }
+
+}
+
+@media  only screen and (max-width:470px){
+     .row1{
+        flex-direction: column;
+    }
+    .star-txt{
+        justify-content: space-between;
+    }
+    .datec{
+        width: fit-content;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+    .row2{
+        flex-direction: column;
+    }
+    .pro{
+        margin-top: 10px;
+    }
+    .app {
+        margin-left: 35%;
+    }
+
+}
+/* header */
+@media  only screen and (max-width:768px){
+    #border_end{
+        border-bottom: 1px solid gainsboro;
+    }
+    #rowpadd{
+        padding-left: unset;
+    }
+    .theme{
+        bottom: 4%;
+        left: 36%;
+    }
+    .health-nu-chil{
+        left:42%;
+        bottom:3%;
+    }
+
+}
+
+
+@media  only screen and (max-width:575px) {
+    #hide{
+        display: none;
+    }
+    #drop-pos{
+        left: -62px;
+    }    
+    .dropdown-border{
+        border: none;
+    }
+    .drop-img{
+        display: none;
+    }
+}

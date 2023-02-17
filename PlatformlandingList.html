@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS\platformlandingList.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm bg-body-light border-bottom">
+        <div class="container-fluid mx-auto">
+          <button class="navbar-toggler"  type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-start" id="navbarSupportedContent" tabindex="-1">
+            <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+              
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Stories</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Policy
+                </a>
+                <ul class="dropdown-menu dropdown-border">
+                  <li><a class="dropdown-item" href="#">Policy</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="dropdown mx-5" id="prof-drop">
+        <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="Assets/user-img.png" class="rounded-circle" alt="profile">
+            <span id="hide">Evan Donohue</span> 
+            <img src="Assets\drop-down.png" alt=""class="drop-img">
+          </a>
+          <ul class="dropdown-menu" id="drop-pos">
+            <li><a class="dropdown-item" href="#">Policy</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+          </ul>
+    </div>
+      <div class="container-fluid border-bottom">
+        <div class="row" id="rowpadd">
+                <div class="d-flex col-12 col-md-4" role="search" id="border_end">
+                <img src="Assets/search.png" alt="search-icon" class="position-absolute pt-3 ps-1">
+                <input class="form-control me-2 ps-5 pt-3 pb-3" id="search-border" type="search" placeholder="Search" aria-label="Search">
+                </div>
+                <li class="list-group-item dropdown col-6 col-sm-3 col-md-2 border-start border-end pt-3 pb-3">
+                    <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Country
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Policy</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="list-group-item dropdown col-6 col-sm-3 col-md-2  border-end pt-3 pb-3">
+                    <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    City
+                    </a>
+                    <ul class="dropdown-menu ">
+                    <li><a class="dropdown-item" href="#">Policy</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="list-group-item dropdown col-6 col-sm-3 col-md-2 border-end pt-3 pb-3">
+                    <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Theme
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Policy</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+                <li class="list-group-item dropdown col-6 col-sm-3 col-md-2 pt-3 pb-3">
+                    <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Skills
+                    </a>
+                    <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Policy</a></li>
+                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li>
+            
+        </div>
+    </div>
+    <div class="container">
+        
+        <div class="explo pt-3">
+            <div>
+                Explore 72 Missions
+            </div>
+            <div class="submain">
+                <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                    <option selected>Sort by</option>
+                    <option value="1">One</option>
+                    <option value="2">Two</option>
+                    <option value="3">Three</option>
+                </select>
+                <a class="ps-5" role="button" href="platforlandinggrid.html">
+                    <img src="Assets/grid.png" alt="grid">
+                </a> 
+                <a class="ps-3" role="button" href="PlatformlandingList.html">
+                    <img src="Assets/list.png" alt="grid">
+                </a>
+
+            </div>
+
+        </div>
+<!-- 1 -->
+        <div class="card mb-3 mt-3" >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability.png" class="img-fluid rounded-start" alt="..." style="height: 100%; width: 100%;">
+                <span class="theme p-1">Environment</span>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Grow Trees - On the path to environment sustainability</h5>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi odit, labore eos hic suscipit modi atque architecto nemo iusto! Ipsa dolorem possimus maxime ea animi tempora dolores perspiciatis iusto alias.</p>
+                  <div class="card-text row1">
+                        <div class="star-txt">
+                            <span>Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="pb-1 star star-margin">
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                            </div>
+                        </div>
+                        <span class="border border-secondary datec py-2  px-3">From 10/12/2019 until 25/02/2020</span>
+                 </div>
+
+                 <div class="card-text pt-4 row2">
+                        <div>
+                            <button class=" border px-3 py-2 app" style="background-color: white;"> Apply<img src="Assets/right-arrow.png" alt="" class=" arrow ms-2"></button>
+                        </div>
+                        <div class="d-flex justify-content-between mx-2 pro">
+                            <div class="d-flex">
+                              <img class="img1 mt-2 me-2" src="Assets/Seats-left.png" alt="Seats-left">
+                              <div>
+                                <span class="fs-6 mb-0">10</span>
+                                <p class="m-0">Seats left</p>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="d-flex ps-3">
+                                <img class="img1 mt-2 me-2" src="Assets/hours.png" alt="Seats-left">
+                                <div>
+                                  <span class="fs-6 mb-0">09/01/2019</span>
+                                  <p class="m-0">Deadline</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        <!-- 2 -->
+
+        <div class="card mb-3 mt-3" >
+            <div class="row g-0">
+            <div class="col-md-4">
+                <img src="Assets/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png" class="img-fluid rounded-start" alt="..." style="height: 100%; width: 100%;">
+                <span class="health-nu-chil p-1">Children</span>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">Education Supplies for Every Pair of Shoes Sold</h5>
+                <p class="card-text text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi odit, labore eos hic suscipit modi atque architecto nemo iusto! Ipsa dolorem possimus maxime ea animi tempora dolores perspiciatis iusto alias.</p>
+                <div class="card-text row1">
+                        <div class="star-txt">
+                            <span>Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="pb-1 star star-margin">
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                            </div>
+                        </div>
+                        <span class="border border-secondary datec py-2  px-3">From 10/12/2019 until 25/02/2020</span>
+                </div>
+
+                <div class="card-text pt-4 row2">
+                        <div>
+                            <button class=" border px-3 py-2 app" style="background-color: white;"> Apply<img src="Assets/right-arrow.png" alt="" class=" arrow ms-2"></button>
+                        </div>
+                        <div class="d-flex justify-content-between mx-2 pro">
+                            <div class="d-flex">
+                            <img class="img1 mt-2 me-2" src="Assets/Seats-left.png" alt="Seats-left">
+                            <div>
+                                <span class="fs-6 mb-0">10</span>
+                                <p class="m-0">Seats left</p>
+                            </div>
+                            </div>
+                            <div>
+                            <div class="d-flex ps-3">
+                                <img class="img1 mt-2 me-2" src="Assets/hours.png" alt="Seats-left">
+                                <div>
+                                <span class="fs-6 mb-0">09/01/2019</span>
+                                <p class="m-0">Deadline</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+<!-- 3 -->
+        <div class="card mb-3 mt-3" >
+            <div class="row g-0">
+            <div class="col-md-4">
+                <img src="Assets/Nourish-the-Children-in--African-country-1.png" class="img-fluid rounded-start" alt="..." style="height: 100%; width: 100%;">
+                <span class="health-nu-chil">Nutrition</span>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">Nourish the Children in African country</h5>
+                <p class="card-text text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi odit, labore eos hic suscipit modi atque architecto nemo iusto! Ipsa dolorem possimus maxime ea animi tempora dolores perspiciatis iusto alias.</p>
+                <div class="card-text row1">
+                        <div class="star-txt">
+                            <span>Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="pb-1 star star-margin">
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                            </div>
+                        </div>
+                        <span class="border border-secondary datec py-2  px-3">From 10/12/2019 until 25/02/2020</span>
+                </div>
+
+                <div class="card-text pt-4 row2">
+                        <div>
+                            <button class=" border px-3 py-2 app" style="background-color: white;"> Apply<img src="Assets/right-arrow.png" alt="" class=" arrow ms-2"></button>
+                        </div>
+                        <div class="d-flex justify-content-between mx-2 pro">
+                            <div class="d-flex">
+                            <img class="img1 mt-2 me-2" src="Assets/Seats-left.png" alt="Seats-left">
+                            <div>
+                                <span class="fs-6 mb-0">10</span>
+                                <p class="m-0">Seats left</p>
+                            </div>
+                            </div>
+                            <div>
+                            <div class="d-flex ps-3">
+                                <img class="img1 mt-2 me-2" src="Assets/hours.png" alt="Seats-left">
+                                <div>
+                                <span class="fs-6 mb-0">09/01/2019</span>
+                                <p class="m-0">Deadline</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+<!-- 4 -->
+        <div class="card mb-3 mt-3" >
+            <div class="row g-0">
+            <div class="col-md-4">
+                <img src="Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png" class="img-fluid rounded-start" alt="..." style="height: 100%; width: 100%;">
+                <span class="theme p-1">Environment</span>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">CSR initiative stands for Coffee and Farmer Equity</h5>
+                <p class="card-text text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi odit, labore eos hic suscipit modi atque architecto nemo iusto! Ipsa dolorem possimus maxime ea animi tempora dolores perspiciatis iusto alias.</p>
+                <div class="card-text row1">
+                        <div class="star-txt">
+                            <span>Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="pb-1 star star-margin">
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                            </div>
+                        </div>
+                        <span class="border border-secondary datec py-2  px-3">From 10/12/2019 until 25/02/2020</span>
+                </div>
+
+                <div class="card-text pt-4 row2">
+                        <div>
+                            <button class=" border px-3 py-2 app" style="background-color: white;"> Apply<img src="Assets/right-arrow.png" alt="" class=" arrow ms-2"></button>
+                        </div>
+                        <div class="d-flex justify-content-between mx-2 pro">
+                            <div class="d-flex">
+                            <img class="img1 mt-2 me-2" src="Assets/Seats-left.png" alt="Seats-left">
+                            <div>
+                                <span class="fs-6 mb-0">10</span>
+                                <p class="m-0">Seats left</p>
+                            </div>
+                            </div>
+                            <div>
+                            <div class="d-flex ps-3">
+                                <img class="img1 mt-2 me-2" src="Assets/hours.png" alt="Seats-left">
+                                <div>
+                                <span class="fs-6 mb-0">09/01/2019</span>
+                                <p class="m-0">Deadline</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+<!-- 5 -->
+        <div class="card mb-3 mt-3" >
+            <div class="row g-0">
+            <div class="col-md-4">
+                <img src="Assets/Animal-welfare-_-save-birds-campaign-1.png" class="img-fluid rounded-start" alt="..." style="height: 100%; width: 100%;">
+                <span class="health-nu-chil p-1">Animals</span>
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+                <h5 class="card-title">Animal welfare & save birds campaign</h5>
+                <p class="card-text text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi odit, labore eos hic suscipit modi atque architecto nemo iusto! Ipsa dolorem possimus maxime ea animi tempora dolores perspiciatis iusto alias.</p>
+                <div class="card-text row1">
+                        <div class="star-txt">
+                            <span>Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="pb-1 star star-margin">
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                            </div>
+                        </div>
+                        <span class="border border-secondary datec py-2  px-3">From 10/12/2019 until 25/02/2020</span>
+                </div>
+
+                <div class="card-text pt-4 row2">
+                        <div>
+                            <button class=" border px-3 py-2 app" style="background-color: white;"> Apply<img src="Assets/right-arrow.png" alt="" class=" arrow ms-2"></button>
+                        </div>
+                        <div class="d-flex justify-content-between mx-2 pro">
+                            <div class="d-flex">
+                            <img class="img1 mt-2 me-2" src="Assets/Seats-left.png" alt="Seats-left">
+                            <div>
+                                <span class="fs-6 mb-0">10</span>
+                                <p class="m-0">Seats left</p>
+                            </div>
+                            </div>
+                            <div>
+                            <div class="d-flex ps-3">
+                                <img class="img1 mt-2 me-2" src="Assets/hours.png" alt="Seats-left">
+                                <div>
+                                <span class="fs-6 mb-0">09/01/2019</span>
+                                <p class="m-0">Deadline</p>
+                                </div>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+<!-- 6 -->
+        <div class="card mb-3 mt-3" >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Assets/Plantation-and-Afforestation-programme-1.png" class="img-fluid rounded-start" alt="..." style="height: 100%; width: 100%;">
+                <span class="health-nu-chil p-1">health</span>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Plantation and Afforestation programme</h5>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi odit, labore eos hic suscipit modi atque architecto nemo iusto! Ipsa dolorem possimus maxime ea animi tempora dolores perspiciatis iusto alias.</p>
+                  <div class="card-text row1">
+                        <div class="star-txt">
+                            <span>Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="pb-1 star star-margin">
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                            </div>
+                        </div>
+                        <span class="border border-secondary datec py-2  px-3">From 10/12/2019 until 25/02/2020</span>
+                 </div>
+
+                 <div class="card-text pt-4 row2">
+                        <div>
+                            <button class=" border px-3 py-2 app" style="background-color: white;"> Apply<img src="Assets/right-arrow.png" alt="" class=" arrow ms-2"></button>
+                        </div>
+                        <div class="d-flex justify-content-between mx-2 pro">
+                            <div class="d-flex">
+                              <img class="img1 mt-2 me-2" src="Assets/Seats-left.png" alt="Seats-left">
+                              <div>
+                                <span class="fs-6 mb-0">10</span>
+                                <p class="m-0">Seats left</p>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="d-flex ps-3">
+                                <img class="img1 mt-2 me-2" src="Assets/hours.png" alt="Seats-left">
+                                <div>
+                                  <span class="fs-6 mb-0">09/01/2019</span>
+                                  <p class="m-0">Deadline</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+<!-- 7 -->
+        <div class="card mb-3 mt-3" >
+            <div class="row g-0">
+              <div class="col-md-4">
+                <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability.png" class="img-fluid rounded-start" alt="..." style="height: 100%; width: 100%;">
+                <span class="theme p-1">Environment</span>
+              </div>
+              <div class="col-md-8">
+                <div class="card-body">
+                  <h5 class="card-title">Grow Trees - On the path to environment sustainability</h5>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eligendi odit, labore eos hic suscipit modi atque architecto nemo iusto! Ipsa dolorem possimus maxime ea animi tempora dolores perspiciatis iusto alias.</p>
+                  <div class="card-text row1">
+                        <div class="star-txt">
+                            <span>Tree Canada</span>
+                            <div>
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="pb-1 star star-margin">
+                                <img src="Assets/selected-star.png" alt="selectedstar" class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                                <img src="Assets/selected-star.png" alt="selectedstar"class="star pb-1">
+                            </div>
+                        </div>
+                        <span class="border border-secondary datec py-2  px-3">From 10/12/2019 until 25/02/2020</span>
+                 </div>
+
+                 <div class="card-text pt-4 row2">
+                        <div>
+                            <button class=" border px-3 py-2 app" style="background-color: white;"> Apply<img src="Assets/right-arrow.png" alt="" class=" arrow ms-2"></button>
+                        </div>
+                        <div class="d-flex justify-content-between mx-2 pro">
+                            <div class="d-flex">
+                              <img class="img1 mt-2 me-2" src="Assets/Seats-left.png" alt="Seats-left">
+                              <div>
+                                <span class="fs-6 mb-0">10</span>
+                                <p class="m-0">Seats left</p>
+                              </div>
+                            </div>
+                            <div>
+                              <div class="d-flex ps-3">
+                                <img class="img1 mt-2 me-2" src="Assets/hours.png" alt="Seats-left">
+                                <div>
+                                  <span class="fs-6 mb-0">09/01/2019</span>
+                                  <p class="m-0">Deadline</p>
+                                </div>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+        </div>
+        
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
