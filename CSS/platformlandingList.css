@@ -28,6 +28,12 @@
 #rowpadd{
     padding-left: 7%;
 }
+#navbarSupportedContent-nav2{
+    width: 240px;
+}
+.nav-2-left{
+    padding-right: 15%;
+}
 .explo{
     display: flex;
     justify-content: space-between;
@@ -97,31 +103,12 @@
     }
 
 }
-
-@media  only screen and (max-width:470px){
-     .row1{
-        flex-direction: column;
+@media  only screen and (max-width:900px){
+    .nav-2-left{
+        padding-right: 2%;
     }
-    .star-txt{
-        justify-content: space-between;
-    }
-    .datec{
-        width: fit-content;
-        margin: 0 auto;
-        margin-top: 10px;
-    }
-    .row2{
-        flex-direction: column;
-    }
-    .pro{
-        margin-top: 10px;
-    }
-    .app {
-        margin-left: 35%;
-    }
-
 }
-/* header */
+
 @media  only screen and (max-width:768px){
     #border_end{
         border-bottom: 1px solid gainsboro;
@@ -136,6 +123,9 @@
     .health-nu-chil{
         left:42%;
         bottom:3%;
+    }
+    .border_none{
+        border: none !important;
     }
 
 }
@@ -154,4 +144,27 @@
     .drop-img{
         display: none;
     }
+}
+@media  only screen and (max-width:470px){
+    .row1{
+       flex-direction: column;
+   }
+   .star-txt{
+       justify-content: space-between;
+   }
+   .datec{
+       width: fit-content;
+       margin: 0 auto;
+       margin-top: 10px;
+   }
+   .row2{
+       flex-direction: column;
+   }
+   .pro{
+       margin-top: 10px;
+   }
+   .app {
+       margin-left: 35%;
+   }
+
 }

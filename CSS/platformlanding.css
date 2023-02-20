@@ -28,7 +28,13 @@
 #rowpadd{
     padding-left: 7%;
 }
-
+#navbarSupportedContent-nav2{
+    width: 240px;
+}
+.nav-2-left{
+    padding-right: 15%;
+}
+/* grid */
 .apply{
     border: 2px solid orange; 
     border-radius: 20px;
@@ -56,14 +62,47 @@
     z-index: -1;
     left: -100px;
 }
+.star-rating {
+    line-height:32px;
+    font-size:1.25em;
+  }
+  
+.star-rating .fa-star{color: yellow;}
+
+.list-view .row > 
+    [class*='col-'] {
+      max-width: 100%;
+      flex: 0 0 100%
+    }
+  
+  .card {
+    @media (max-width: 575.98px) {
+     flex-direction: column;
+    
+    flex-direction: row ;
+     .card-img-top {
+     width: auto;
+    }
+    
+    .card-body {
+      display: inline-block;
+    }
+  }
+}
+
+@media  only screen and (max-width:900px){
+    .nav-2-left{
+        padding-right: 2%;
+    }
+}
 
 
 @media  only screen and (max-width:767px){
-    #border_end{
-        border-bottom: 1px solid gainsboro;
-    }
     #rowpadd{
         padding-left: unset;
+    }
+    .border_none{
+        border: none !important;
     }
 
 }
