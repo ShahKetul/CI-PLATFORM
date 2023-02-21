@@ -1,0 +1,164 @@
+.dropdown a img{
+    width: 50px;
+    height: 50px;
+}
+
+#prof-drop{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+}
+
+#search-border{
+    border: none;
+}
+
+#navbarSupportedContent{
+    width:240px;
+}
+/* filter */
+.filter-list {
+    /* padding:6px 10px;  */
+    background-color: white;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+.filter-close-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 5px;
+    color: #888;
+}
+.filters-section{
+    margin-top:2%;
+}
+/* navbar */
+.apply{
+    border: 2px solid orange; 
+    border-radius: 20px;
+    color: orange;
+    background-color: white;
+}
+
+.imgTitle{
+    border-radius: 10px;
+    background-color: white;
+    bottom: -3%;
+    left: 35%;
+}
+
+.img1{
+    width: 25px;
+    height: 25px;
+}
+
+.duration::before
+{
+    content: '';
+    width: 200%;
+    background-color: rgba(128, 128, 128, 0.334);
+    position: absolute;
+    z-index: -1;
+    left: -100px;
+}
+.star-rating {
+    line-height:32px;
+    font-size:1.25em;
+  }
+  
+.star-rating .fa-star{color: yellow;}
+
+.list-view .row > 
+    [class*='col-'] {
+      max-width: 100%;
+      flex: 0 0 100%
+    }
+  
+  .card {
+    @media (max-width: 575.98px) {
+     flex-direction: column;
+    
+    flex-direction: row ;
+     .card-img-top {
+     width: auto;
+    }
+    
+    .card-body {
+      display: inline-block;
+    }
+  }
+}
+
+.card {
+    margin-bottom: 1rem;
+  }
+  
+  .list-view .row > [class*=col-] {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+  .list-view .card {
+    flex-direction: row;
+  }
+
+  .imgpos{
+    width: 100%;
+    height: 100%;
+}
+.apply-back{
+    background-color: white;
+}
+
+
+  @media (max-width: 767.20px){
+
+    .imgTitle{
+        border-radius: 10px;
+        background-color: white;
+        bottom: -3%;
+        left: 42%;
+    }
+    #filter{
+        flex-direction: column !important;
+    }  
+    .drop{
+        position: static !important;
+        transform: unset !important;
+    }
+    .noborder{
+        border: none !important;
+    }  
+
+  }
+
+  @media (max-width: 575.98px) {
+    .list-view .card {
+      flex-direction: column;
+    }
+  }
+  .list-view .card > .card-img-top {
+    width: auto;
+  }
+  .list-view .card .card-body {
+    display: inline-block;
+  }
+
+@media  only screen and (max-width:575px) {
+    #hide{
+        display: none;
+    }
+    #drop-pos{
+        left: -62px;
+    }    
+    .dropdown-border{
+        border: none;
+    }
+    #gridList{
+        display: none !important;
+    }
+}

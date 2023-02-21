@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.dropdown a img{
+    width: 50px;
+    height: 50px;
+}
+
+#prof-drop{
+    position: absolute;
+    right: 5px;
+    top: 3px;
+}
+
+#search-border{
+    border: none;
+}
+
+#navbarSupportedContent{
+    width:240px;
+}
+
+.icon{
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.heart{
+    width: 38px;
+    height: 32px;
+}
+
+.apply{
+    border: 2px solid orange; 
+    border-radius: 20px;
+    color: orange;
+    background-color: white;
+}
+
+.imgTitle{
+    bottom: 14px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.img1, .pin{
+    width: 25px;
+    height: 25px;
+}
+
+#filter{
+    width: 240px;
+}
+
+.pill{
+    width: fit-content;
+    background-color: white;
+}
+
+#progress{
+    width: 500%;
+}
+
+#hr{
+    position: relative;
+    bottom: 2rem;
+}
+
+
+.filter-list {
+    /* padding:6px 10px;  */
+    background-color: white;
+    border: 1px solid #808080;
+    border-radius: 20px;
+    color: #000;
+    cursor: pointer;
+}
+
+.filter-close-button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin-left: 5px;
+    color: #888;
+}
+.filters-section{
+    margin-top:2%;
+}
+
+.stardiv{
+    background-color: white;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+#starLine{
+    position: relative;
+    bottom: 1.6rem;
+}
+
+@media screen and (max-width:768px) {
+    #filter{
+        flex-direction: column !important;
+    }  
+    .drop{
+        position: static !important;
+        transform: unset !important;
+    }
+    .noborder{
+        border: none !important;
+    }  
+}
+
+@media  only screen and (max-width:575px) {
+    #hide{
+        display: none;
+    }
+    #drop-pos{
+        left: -62px;
+    }    
+    .dropdown-border{
+        border: none;
+    }
+
+
+}
