@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Mission Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/volunteerMisson.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-sm bg-body-light border-bottom">
+        <div class="container-fluid mx-auto">
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="offcanvas offcanvas-start" id="navbarSupportedContent" tabindex="-1">
+                <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Explore
+                        </a>
+                        <ul class="dropdown-menu dropdown-border">
+                            <li><a class="dropdown-item" href="#">Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Stories</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Policy
+                        </a>
+                        <ul class="dropdown-menu dropdown-border">
+                            <li><a class="dropdown-item" href="#">Policy</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="dropdown mx-5" id="prof-drop">
+        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="Assets\user-img.png" class="rounded-circle" alt="profile">
+            <span id="hide">Evan Donohue</span>
+        </a>
+        <ul class="dropdown-menu" id="drop-pos">
+            <li><a class="dropdown-item" href="#">Policy</a></li>
+            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Something else here</a></li>
+        </ul>
+    </div>
+    <div class="container-fluid border-bottom navbar-expand-md">
+        <div class="row mx-5 d-flex justify-content-between">
+            <div class="d-flex col-11 col-md-4" role="search">
+                <img src="Assets\search.png" alt="search-icon" class="position-absolute pt-3 ps-1">
+                <input class="form-control me-2 ps-5 pt-3 pb-3" id="search-border" type="search" placeholder="Search"
+                    aria-label="Search">
+            </div>
+            <button class="navbar-toggler col-1" type="button" data-bs-toggle="offcanvas" data-bs-target="#filter"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"><img src="./Assets/filter.png" alt=""></span>
+            </button>
+            <div id="filter" class="offcanvas offcanvas-start d-flex flex-row col-md-8" tabindex="-1">
+                <li class="list-group-item  dropdown border-start col-md-3 border-end pt-3 pb-3 noborder">
+                    <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Country
+                    </a>
+                    <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="India"
+                                id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                India
+                            </label>
+                        </div>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="Russia"
+                                id="flexCheckDefault1">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Russia
+                            </label>
+                        </div>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="USA" id="flexCheckDefault2">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                USA
+                            </label>
+                        </div>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="Canada"
+                                id="flexCheckDefault3">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Canada
+                            </label>
+                        </div>
+                    </ul>
+
+                </li>
+                <li class="list-group-item dropdown col-md-3 border-end pt-3 pb-3 noborder">
+                    <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        City
+                    </a>
+                    <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="Ahemedabad"
+                                id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Ahemedabad
+                            </label>
+                        </div>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="Gandhinagar"
+                                id="flexCheckDefault1">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Gandhinagar
+                            </label>
+                        </div>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="Baroda"
+                                id="flexCheckDefault2">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Baroda
+                            </label>
+                        </div>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="Surat"
+                                id="flexCheckDefault3">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Surat
+                            </label>
+                        </div>
+                    </ul>
+                </li>
+                <li class="list-group-item dropdown col-md-3 border-end pt-3 pb-3 noborder">
+                    <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Theme
+                    </a>
+                    <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="Environment"
+                                id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Environment
+                            </label>
+                        </div>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="Education"
+                                id="flexCheckDefault1">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Education
+                            </label>
+                        </div>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="Children"
+                                id="flexCheckDefault2">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Children
+                            </label>
+                        </div>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="Nutrition"
+                                id="flexCheckDefault3">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Nutrition
+                            </label>
+                        </div>
+                    </ul>
+                </li>
+                <li class="list-group-item dropdown border-end col-md-3 pt-3 pb-3 noborder">
+                    <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
+                        aria-expanded="false">
+                        Skills
+                    </a>
+                    <ul class="dropdown-menu drop" aria-labelledby="navbarDropdown">
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Default
+                            </label>
+                        </div>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault1">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Checked
+                            </label>
+                        </div>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault2">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Checked
+                            </label>
+                        </div>
+                        <div class="form-check ms-3">
+                            <input class="form-check-input checkbox" type="checkbox" value="" id="flexCheckDefault3">
+                            <label class="form-check-label" for="flexCheckDefault">
+                                Checked
+                            </label>
+                        </div>
+                    </ul>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="filters-section d-flex align-items-center flex-wrap justify-content-start mb-2 mx-5 ">
+
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-6">
+                <img src="./Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-3.png" class="img-fluid h-100"
+                    alt="">
+            </div>
+            <div class="col col-md-6">
+                <h2>CSR initiative stands for Coffee & Farmer Equity</h2>
+                <div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Exercitationem temporibus quod explicabo.
+                    Minima, earum dolorem.
+                </div>
+                <div class="mx-auto px-2 py-1 rounded-pill border mt-3 pill position-relative z-1">
+                    Plant 10,000 Trees
+                </div>
+                <hr id="hr">
+                <div class="d-flex justify-content-between  border-bottom pb-4">
+                    <div class="d-flex">
+                        <img class="img1 mt-2 me-1" src="Assets\Seats-left.png" alt="Seats-left">
+                        <div>
+                            <span class="fs-6 mb-0">10</span>
+                            <p class="m-0">Seats left</p>
+                        </div>
+                    </div>
+                    <div class="">
+                        <div class="d-flex">
+                            <img class="img1 mt-2 me-2" src="Assets\achieved.png" alt="Seats-left">
+                            <div>
+                                <div class="progress mt-2" id="progrss" role="progressbar" aria-label="Basic example"
+                                    aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar bg-warning" style="width: 25%"></div>
+                                </div>
+                                <p class="m-0">8000 achieved</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="d-flex justify-content-between mt-2">
+                    <button class="py-2 px-3 mx-auto apply btn rounded-pill border"><img src="Assets/heart1.png" alt=""
+                            class="ms-2"> Add to
+                        Favourite</button>
+                    <button class="py-2 px-3 mx-auto apply btn rounded-pill border"><img src="Assets/add1.png" alt=""
+                            class="ms-2"> Recommend to a
+                        Co-worker</button>
+                </div>
+                <div class="d-flex justify-content-center mt-2 position-relative z-1 stardiv">
+                    <img class="star" src="Assets\star.png" alt="">
+                    <img class="star" src="Assets\star.png" alt="">
+                    <img class="star" src="Assets\star.png" alt="">
+                    <img class="star" src="Assets\star.png" alt="">
+                    <img class="star" src="Assets\star.png" alt="">
+                </div>
+                <hr id="starLine">
+                <div class="row d-flex justify-content-between mx-2">
+                    <div class="col col-md-6 col-lg-2 border">
+                        <img src="./Assets/pin1.png" alt="">
+                        <p>City</p>
+                        <p>London</p>
+                    </div>
+                    <div class="col col-md-6 col-lg-3 border">
+                        <img src="./Assets/web.png" alt="">
+                        <p>Theme</p>
+                        <p>Environment</p>
+                    </div>
+                    <div class="col col-md-6 col-lg-3 border">
+                        <img src="./Assets/calender.png" alt="">
+                        <p>Date</p>
+                        <p>Ongoing Oppertunity</p>
+                    </div>
+                    <div class="col col-md-6 col-lg-3 border">
+                        <img src="./Assets/organization.png" alt="">
+                        <p>Organization</p>
+                        <p>CSE Network</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+        <div class="d-flex justify-content-center mt-3 flex-column">
+            <h3 class="mx-auto">Related Mission</h3>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mx-auto ">
+                <div class="col">
+                  <div class="card h-100 d-flex">
+                    <div class="align-self-end position-absolute top-1 text-light icon rounded-pill px-2 me-1 mt-1">
+                      <img class="pin" src="Assets\pin.png" alt=""> Toronto
+                    </div>
+                    <img src="./Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top" alt="Skyscrapers"/>
+                    <div class="d-flex flex-column align-self-end position-absolute rounded-circle mt-5 pt-5 me-2">
+                      <a><img class="heart rounded-circle icon p-2 mb-1 mt-4" src="Assets\heart.png" alt=""></a>
+                      <a><img class="heart rounded-circle icon p-2" src="Assets\add1.png" alt=""></a> 
+                    </div>
+                    <div class="mx-auto d-flex position-relative px-3 imgTitle">Environment</div>
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Grow Trees - On the path to environment sustainability</h5>
+                      <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci 
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <p>Tree Canada</p>
+                        <div>
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                        </div>
+                      </div>
+                      <div class="mx-auto px-2 py-1 rounded-pill border duration">
+                        From 10/01/2019 until 25/02/2019
+                      </div>
+          
+                      <div class="d-flex justify-content-between mx-2 mt-2">
+                        <div class="d-flex">
+                          <img class="img1 mt-2 me-1" src="Assets\Seats-left.png" alt="Seats-left">
+                          <div>
+                            <span class="fs-6 mb-0">10</span>
+                            <p class="m-0">Seats left</p>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="d-flex">
+                            <img class="img1 mt-2 me-1" src="Assets\hours.png" alt="Deadline">
+                            <div>
+                              <span class="fs-6 mb-0">09/01/2019</span>
+                              <p class="m-0">Deadline</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer d-flex">
+                        <button class="py-2 px-3 mx-auto apply">Apply <img src="Assets\right-arrow.png" alt="" class="ms-2"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <div class="align-self-end position-absolute top-1 text-light icon rounded-pill px-2 me-1 mt-1">
+                      <img class="pin" src="Assets\pin.png" alt=""> Toronto
+                    </div>
+                    <img src="./Assets/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png" class="card-img-top" alt="Los Angeles Skyscrapers"/>
+                    <div class="d-flex flex-column align-self-end position-absolute rounded-circle mt-5 pt-5 me-2">
+                      <a><img class="heart rounded-circle icon p-2 mb-1 mt-4" src="Assets\heart.png" alt=""></a>
+                      <a><img class="heart rounded-circle icon p-2" src="Assets\add1.png" alt=""></a> 
+                    </div>
+                    <div class="mx-auto d-flex position-relative px-3 imgTitle">Education</div>
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Education Supplies for Every Pair of Shoes Sold</h5>
+                      <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci 
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <p>Tree Canada</p>
+                        <div>
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                        </div>
+                      </div>
+                      <div class="mx-auto px-2 py-1 rounded-pill border duration">
+                        From 10/01/2019 until 25/02/2019
+                      </div>
+          
+                      <div class="d-flex justify-content-between mx-2 mt-2">
+                        <div class="d-flex">
+                          <img class="img1 mt-2 me-1" src="Assets\Seats-left.png" alt="Seats-left">
+                          <div>
+                            <span class="fs-6 mb-0">10</span>
+                            <p class="m-0">Seats left</p>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="d-flex">
+                            <img class="img1 mt-2 me-1" src="Assets\hours.png" alt="Seats-left">
+                            <div>
+                              <span class="fs-6 mb-0">09/01/2019</span>
+                              <p class="m-0">Deadline</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer d-flex">
+                        <button class="py-2 px-3 mx-auto apply">Apply <img src="Assets\right-arrow.png" alt="" class="ms-2"></button>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                  <div class="card h-100">
+                    <div class="align-self-end position-absolute top-1 text-light icon rounded-pill px-2 me-1 mt-1">
+                      <img class="pin" src="Assets\pin.png" alt=""> Toronto
+                    </div>
+                    <img src="./Assets/Nourish-the-Children-in--African-country-1.png" class="card-img-top" alt="Palm Springs Road"/>
+                    <div class="d-flex flex-column align-self-end position-absolute rounded-circle mt-5 pt-5 me-2">
+                      <a><img class="heart rounded-circle icon p-2 mb-1 mt-4" src="Assets\heart.png" alt=""></a>
+                      <a><img class="heart rounded-circle icon p-2" src="Assets\add1.png" alt=""></a> 
+                    </div>
+                    <div class="mx-auto d-flex position-relative px-3 imgTitle">Nutrition</div>
+                    <div class="card-body d-flex flex-column">
+                      <h5 class="card-title">Nourish the Children in African country</h5>
+                      <p class="card-text">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci 
+                      </p>
+                      <div class="d-flex justify-content-between">
+                        <p>Tree Canada</p>
+                        <div>
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                          <img class="star" src="Assets\selected-star.png" alt="">
+                        </div>
+                      </div>
+                      <div class="mx-auto px-2 py-1 rounded-pill border duration">
+                        From 10/01/2019 until 25/02/2019
+                      </div>
+          
+                      <div class="d-flex justify-content-between mx-2 mt-2">
+                        <div class="d-flex">
+                          <img class="img1 mt-2 me-1" src="Assets\Seats-left.png" alt="Seats-left">
+                          <div>
+                            <span class="fs-6 mb-0">10</span>
+                            <p class="m-0">Seats left</p>
+                          </div>
+                        </div>
+                        <div>
+                          <div class="d-flex">
+                            <img class="img1 mt-2 me-1" src="Assets\hours.png" alt="Seats-left">
+                            <div>
+                              <span class="fs-6 mb-0">09/01/2019</span>
+                              <p class="m-0">Deadline</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-footer d-flex">
+                        <button class="py-2 px-3 mx-auto apply">Apply <img src="Assets\right-arrow.png" alt="" class="ms-2"></button>
+                    </div>
+                  </div>
+                </div>
+                </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+    <script src="JS/volunteerMission.js"></script>
+</body>
+
+</html>
