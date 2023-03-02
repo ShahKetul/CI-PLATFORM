@@ -76,7 +76,7 @@
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"><img src="Assets/filter.png" alt=""></span>
             </button>
-            <div id="filter" class="offcanvas offcanvas-start d-flex flex-row col-md-8" tabindex="-1">
+            <div id="filter" class="offcanvas offcanvas-start d-flex flex-row col-md-8 offcanvas-width" tabindex="-1">
                 <li class="list-group-item  dropdown border-start col-md-3 border-end pt-3 pb-3 noborder">
                     <a class="nav-link dropdown-toggle text-center" href="#" id="navbarDropdown" role="button"
                         data-bs-toggle="dropdown" aria-expanded="false">
@@ -245,25 +245,35 @@
             <!-- 1 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <div class="position-relative">
-                        <img src="Assets/Nourish-the-Children-in--African-country-1.png" class="card-img-top imgpos"
-                            alt="Palm Springs Road" />
-                        <span class=" position-absolute imgTitle">Nutrition</span>
+                    <div class="position-relative d-flex justify-content-end">
+                        <div class="position-absolute top-1 text-light icon1 rounded-pill px-2 me-1 mt- backcolor">
+                            <img class="pin" src="Assets\pin.png" alt=""> Toronto
+                          </div>
+                        <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Avatar"
+                            class="imgmain">
+                            <div class="d-flex flex-column justify-content-end align-self-end position-absolute rounded-circle mt-5 pt-5 me-2">
+                                <a><img class="heart rounded-circle  p-2 mb-1 mt-4 backcolor" src="Assets\heart.png" alt=""></a>
+                                <a><img class="heart rounded-circle  p-2 backcolor" src="Assets\add1.png" alt="" ></a> 
+                                </div>
+                        <div class="mx-auto position-absolute imgTitle1">Environment</div>
                     </div>
                     <div class="card-body p-0 d-flex flex-column">
 
                         <div class="onlylistcol1 d-none justify-content-between d-flex mx-3 mt-2">
                             <div>
-                                <img src="Assets/pin1.png" alt="loc" class="me-1 iconresize"><span class="txtresize">Atianta</span>
-                                <img src="Assets/web.png" alt="loc" class="ms-1 me-1 iconresize"><span class="txtresize">Environment</span>
-                                <img src="Assets/organization.png" alt="loc" class="ms-1 me-1 iconresize"><span class="txtresize">tatva international carring foundation</span>
+                                <img src="Assets/pin1.png" alt="loc" class="me-1 iconresize"><span
+                                    class="txtresize">Atianta</span>
+                                <img src="Assets/web.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">Environment</span>
+                                <img src="Assets/organization.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">tatva international carring foundation</span>
                             </div>
                             <div class="d-flex">
-                                <img  src="Assets/selected-star.png" alt="" class="starresize">
-                                <img  src="Assets/selected-star.png" alt="" class="starresize">
-                                <img  src="Assets/selected-star.png" alt="" class="starresize">
-                                <img  src="Assets/selected-star.png" alt="" class="starresize">
-                                <img  src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
                             </div>
 
                         </div>
@@ -282,11 +292,15 @@
                                 <img class="star" src="Assets/selected-star.png" alt="">
                             </div>
                         </div>
-                        <div class="mx-auto px-2 py-1 rounded-pill border duration durationnonelist">
-                            From 10/01/2019 until 25/02/2019
+                        
+                        <div class=" position-relative maindiv_hr">
+                            <div class="mx-3 px-1 py-1 rounded-pill text-center border border-bottom duration durationnonelist position-relative subdiv_hr">
+                                From 10/01/2019 until 25/02/2019 
+                            </div>
+                            <hr class="position-relative final_hr">
                         </div>
 
-                        <div class="only_list_butn_skill_seat_duration d-none px-2">    
+                        <div class="only_list_butn_skill_seat_duration d-none px-2">
                             <div class="whole mx-2 mt-2">
                                 <div class="col2_between">
                                     <div class="d-flex">
@@ -303,11 +317,11 @@
                                             <p class="m-0 txt_for_img">Deadline</p>
                                         </div>
                                     </div>
-    
+
 
                                 </div>
-                                
-                                <div class="col2_between"> 
+
+                                <div class="col2_between">
 
                                     <div class="d-flex ms-3 img1_margin_remove">
                                         <img class="img1 mt-2 me-1" src="Assets/calender.png" alt="Seats-left">
@@ -328,13 +342,14 @@
 
                             </div>
                             <div class="d-flex apply-back border-top mt-4 mb-3 bo">
-                                <button class="px-1 mx-auto apply_view"> <span class="viewdetail"> View Details</span><img src="Assets/right-arrow.png" alt=""
-                                class="img1 ms-1"></button>
+                                <button class="px-1 mx-auto apply_view"> <span class="viewdetail"> View
+                                        Details</span><img src="Assets/right-arrow.png" alt=""
+                                        class="img1 ms-1"></button>
                             </div>
 
                         </div>
 
-                        <div class="only_grid_butn_skill_seat_duration">    
+                        <div class="only_grid_butn_skill_seat_duration">
                             <div class="d-flex justify-content-between mx-3 mt-2">
                                 <div class="d-flex">
                                     <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
@@ -354,29 +369,56 @@
                                 </div>
                             </div>
                             <div class="d-flex apply-back border-top mt-4 mb-3 bo">
-                                <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png" alt=""
-                                        class="ms-2"></button>
+                                <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png"
+                                        alt="" class="ms-2"></button>
                             </div>
 
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
             <!-- 2 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <div class="position-relative">
-                        <img src="Assets/Nourish-the-Children-in--African-country-1.png" class="card-img-top imgpos"
-                            alt="Palm Springs Road" />
-                        <span class=" position-absolute imgTitle">Nutrition</span>
+                    <div class="position-relative d-flex justify-content-end">
+                        <div class="position-absolute top-1 text-light icon1 rounded-pill px-2 me-1 mt- backcolor">
+                            <img class="pin" src="Assets\pin.png" alt=""> <span>Toronto</span>
+                          </div>
+                        <img src="Assets/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png" alt="Avatar"
+                            class="imgmain">
+                            <div class="d-flex flex-column justify-content-end align-self-end position-absolute rounded-circle mt-5 pt-5 me-2">
+                                <a><img class="heart rounded-circle  p-2 mb-1 mt-4 backcolor" src="Assets\heart.png" alt=""></a>
+                                <a><img class="heart rounded-circle  p-2 backcolor" src="Assets\add1.png" alt="" ></a> 
+                                </div>
+                        <div class="mx-auto position-absolute imgTitle1">Children</div>
                     </div>
                     <div class="card-body p-0 d-flex flex-column">
-                        <h5 class="card-title mx-3">Grow Trees - On the path to environment sustainability</h5>
+
+                        <div class="onlylistcol1 d-none justify-content-between d-flex mx-3 mt-2">
+                            <div>
+                                <img src="Assets/pin1.png" alt="loc" class="me-1 iconresize"><span
+                                    class="txtresize">Atianta</span>
+                                <img src="Assets/web.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">Environment</span>
+                                <img src="Assets/organization.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">tatva international carring foundation</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                            </div>
+
+                        </div>
+
+                        <h5 class="card-title mx-3 mt-3">Education Supplies for Every Pair of Shoes Sold</h5>
                         <p class="card-text mx-3">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
                         </p>
-                        <div class="d-flex justify-content-between mx-3">
+                        <div class="onlygrid mx-3">
                             <p>Tree Canada</p>
                             <div>
                                 <img class="star" src="Assets/selected-star.png" alt="">
@@ -386,49 +428,132 @@
                                 <img class="star" src="Assets/selected-star.png" alt="">
                             </div>
                         </div>
-                        <div class="mx-auto px-2 py-1 rounded-pill border duration">
-                            From 10/01/2019 until 25/02/2019
+                        <div class=" position-relative maindiv_hr">
+                            <div class="mx-3 px-1 py-1 rounded-pill text-center border border-bottom duration durationnonelist position-relative subdiv_hr">
+                                From 10/01/2019 until 25/02/2019 
+                            </div>
+                            <hr class="position-relative final_hr">
                         </div>
 
-                        <div class="d-flex justify-content-between mx-3 mt-2">
-                            <div class="d-flex">
-                                <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
-                                <div>
-                                    <span class="fs-6 mb-0">10</span>
-                                    <p class="m-0">Seats left</p>
+                        <div class="only_list_butn_skill_seat_duration d-none px-2">
+                            <div class="whole mx-2 mt-2">
+                                <div class="col2_between">
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2" src="Assets/Seats-left.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">10</span>
+                                            <p class="m-0 txt_for_img">Seats left</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 deadline_margin margin_grid">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">09/01/2019</span>
+                                            <p class="m-0 txt_for_img">Deadline</p>
+                                        </div>
+                                    </div>
+
+
                                 </div>
+
+                                <div class="col2_between">
+
+                                    <div class="d-flex ms-3 img1_margin_remove">
+                                        <img class="img1 mt-2 me-1" src="Assets/calender.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">From 09/01/2019</span>
+                                            <p class="m-0 txt_for_img">untill 08/04/2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 skil_margin">
+                                        <img class="img1 mt-2 me-1" src="Assets/info.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">Skills</span>
+                                            <p class="m-0 txt_for_img">Teaching English</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
-                            <div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="px-1 mx-auto apply_view"> <span class="viewdetail"> View
+                                        Details</span><img src="Assets/right-arrow.png" alt=""
+                                        class="img1 ms-1"></button>
+                            </div>
+
+                        </div>
+
+                        <div class="only_grid_butn_skill_seat_duration">
+                            <div class="d-flex justify-content-between mx-3 mt-2">
                                 <div class="d-flex">
-                                    <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                    <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
                                     <div>
-                                        <span class="fs-6 mb-0">09/01/2019</span>
-                                        <p class="m-0">Deadline</p>
+                                        <span class="fs-6 mb-0">10</span>
+                                        <p class="m-0">Seats left</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0">09/01/2019</span>
+                                            <p class="m-0">Deadline</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png"
+                                        alt="" class="ms-2"></button>
+                            </div>
+
                         </div>
-                        <div class="d-flex apply-back border-top mt-4 mb-3 bo">
-                            <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png" alt=""
-                                    class="ms-2"></button>
-                        </div>
+
                     </div>
                 </div>
             </div>
             <!-- 3 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <div class="position-relative">
-                        <img src="Assets/Nourish-the-Children-in--African-country-1.png" class="card-img-top imgpos"
-                            alt="Palm Springs Road" />
-                        <span class=" position-absolute imgTitle">Nutrition</span>
+                    <div class="position-relative d-flex justify-content-end">
+                        <div class="position-absolute top-1 text-light icon1 rounded-pill px-2 me-1 mt- backcolor">
+                            <img class="pin" src="Assets\pin.png" alt=""> Toronto
+                          </div>
+                        <img src="Assets/Nourish-the-Children-in--African-country-1.png" alt="Avatar" class="imgmain">
+                        <div class="mx-auto position-absolute imgTitle1">Nutrition</div>
+                        <div class="d-flex flex-column justify-content-end align-self-end position-absolute rounded-circle mt-5 pt-5 me-2">
+                            <a><img class="heart rounded-circle  p-2 mb-1 mt-4 backcolor" src="Assets\heart.png" alt=""></a>
+                            <a><img class="heart rounded-circle  p-2 backcolor" src="Assets\add1.png" alt="" ></a> 
+                            </div>
                     </div>
                     <div class="card-body p-0 d-flex flex-column">
-                        <h5 class="card-title mx-3">Grow Trees - On the path to environment sustainability</h5>
+
+                        <div class="onlylistcol1 d-none justify-content-between d-flex mx-3 mt-2">
+                            <div>
+                                <img src="Assets/pin1.png" alt="loc" class="me-1 iconresize"><span
+                                    class="txtresize">Atianta</span>
+                                <img src="Assets/web.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">Environment</span>
+                                <img src="Assets/organization.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">tatva international carring foundation</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                            </div>
+
+                        </div>
+
+                        <h5 class="card-title mx-3 mt-3">Nourish the Children in
+                            African country</h5>
                         <p class="card-text mx-3">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
                         </p>
-                        <div class="d-flex justify-content-between mx-3">
+                        <div class="onlygrid mx-3">
                             <p>Tree Canada</p>
                             <div>
                                 <img class="star" src="Assets/selected-star.png" alt="">
@@ -438,49 +563,132 @@
                                 <img class="star" src="Assets/selected-star.png" alt="">
                             </div>
                         </div>
-                        <div class="mx-auto px-2 py-1 rounded-pill border duration">
-                            From 10/01/2019 until 25/02/2019
+                        <div class=" position-relative maindiv_hr">
+                            <div class="mx-3 px-1 py-1 rounded-pill text-center border border-bottom duration durationnonelist position-relative subdiv_hr">
+                                From 10/01/2019 until 25/02/2019 
+                            </div>
+                            <hr class="position-relative final_hr">
                         </div>
 
-                        <div class="d-flex justify-content-between mx-3 mt-2">
-                            <div class="d-flex">
-                                <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
-                                <div>
-                                    <span class="fs-6 mb-0">10</span>
-                                    <p class="m-0">Seats left</p>
+                        <div class="only_list_butn_skill_seat_duration d-none px-2">
+                            <div class="whole mx-2 mt-2">
+                                <div class="col2_between">
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2" src="Assets/Seats-left.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">10</span>
+                                            <p class="m-0 txt_for_img">Seats left</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 deadline_margin margin_grid">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">09/01/2019</span>
+                                            <p class="m-0 txt_for_img">Deadline</p>
+                                        </div>
+                                    </div>
+
+
                                 </div>
+
+                                <div class="col2_between">
+
+                                    <div class="d-flex ms-3 img1_margin_remove">
+                                        <img class="img1 mt-2 me-1" src="Assets/calender.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">From 09/01/2019</span>
+                                            <p class="m-0 txt_for_img">untill 08/04/2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 skil_margin">
+                                        <img class="img1 mt-2 me-1" src="Assets/info.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">Skills</span>
+                                            <p class="m-0 txt_for_img">Teaching English</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
-                            <div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="px-1 mx-auto apply_view"> <span class="viewdetail"> View
+                                        Details</span><img src="Assets/right-arrow.png" alt=""
+                                        class="img1 ms-1"></button>
+                            </div>
+
+                        </div>
+
+                        <div class="only_grid_butn_skill_seat_duration">
+                            <div class="d-flex justify-content-between mx-3 mt-2">
                                 <div class="d-flex">
-                                    <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                    <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
                                     <div>
-                                        <span class="fs-6 mb-0">09/01/2019</span>
-                                        <p class="m-0">Deadline</p>
+                                        <span class="fs-6 mb-0">10</span>
+                                        <p class="m-0">Seats left</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0">09/01/2019</span>
+                                            <p class="m-0">Deadline</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png"
+                                        alt="" class="ms-2"></button>
+                            </div>
+
                         </div>
-                        <div class="d-flex apply-back border-top mt-4 mb-3 bo">
-                            <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png" alt=""
-                                    class="ms-2"></button>
-                        </div>
+
                     </div>
                 </div>
             </div>
             <!-- 4 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <div class="position-relative">
-                        <img src="Assets/Nourish-the-Children-in--African-country-1.png" class="card-img-top imgpos"
-                            alt="Palm Springs Road" />
-                        <span class=" position-absolute imgTitle">Nutrition</span>
+                    <div class="position-relative d-flex justify-content-end">
+                        <div class="position-absolute top-1 text-light rounded-pill px-2 me-1 mt- backcolor">
+                            <img class="pin" src="Assets\pin.png" alt=""> Toronto
+                          </div>
+                        <img src="Assets/CSR-initiative-stands-for-Coffee--and-Farmer-Equity-1.png" alt="Avatar"
+                            class="imgmain">
+                            <div class="d-flex flex-column justify-content-end align-self-end position-absolute rounded-circle mt-5 pt-5 me-2">
+                                <a><img class="heart rounded-circle  p-2 mb-1 mt-4 backcolor" src="Assets\heart.png" alt=""></a>
+                                <a><img class="heart rounded-circle  p-2 backcolor" src="Assets\add1.png" alt="" ></a> 
+                                </div>
+                        <div class="mx-auto position-absolute imgTitle1">Environment</div>
                     </div>
                     <div class="card-body p-0 d-flex flex-column">
-                        <h5 class="card-title mx-3">Grow Trees - On the path to environment sustainability</h5>
+
+                        <div class="onlylistcol1 d-none justify-content-between d-flex mx-3 mt-2">
+                            <div>
+                                <img src="Assets/pin1.png" alt="loc" class="me-1 iconresize"><span
+                                    class="txtresize">Atianta</span>
+                                <img src="Assets/web.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">Environment</span>
+                                <img src="Assets/organization.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">tatva international carring foundation</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                            </div>
+
+                        </div>
+
+                        <h5 class="card-title mx-3 mt-3">CSR initiative stands for Coffee and Farmer Equity</h5>
                         <p class="card-text mx-3">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
                         </p>
-                        <div class="d-flex justify-content-between mx-3">
+                        <div class="onlygrid mx-3">
                             <p>Tree Canada</p>
                             <div>
                                 <img class="star" src="Assets/selected-star.png" alt="">
@@ -490,49 +698,134 @@
                                 <img class="star" src="Assets/selected-star.png" alt="">
                             </div>
                         </div>
-                        <div class="mx-auto px-2 py-1 rounded-pill border duration">
-                            From 10/01/2019 until 25/02/2019
+                        <div class=" position-relative maindiv_hr">
+                            <div class="mx-3 px-1 py-1 rounded-pill text-center border border-bottom duration durationnonelist position-relative subdiv_hr">
+                                From 10/01/2019 until 25/02/2019 
+                            </div>
+                            <hr class="position-relative final_hr">
                         </div>
 
-                        <div class="d-flex justify-content-between mx-3 mt-2">
-                            <div class="d-flex">
-                                <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
-                                <div>
-                                    <span class="fs-6 mb-0">10</span>
-                                    <p class="m-0">Seats left</p>
+                        <div class="only_list_butn_skill_seat_duration d-none px-2">
+                            <div class="whole mx-2 mt-2">
+                                <div class="col2_between">
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2" src="Assets/Seats-left.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">10</span>
+                                            <p class="m-0 txt_for_img">Seats left</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 deadline_margin margin_grid">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">09/01/2019</span>
+                                            <p class="m-0 txt_for_img">Deadline</p>
+                                        </div>
+                                    </div>
+
+
                                 </div>
+
+                                <div class="col2_between">
+
+                                    <div class="d-flex ms-3 img1_margin_remove">
+                                        <img class="img1 mt-2 me-1" src="Assets/calender.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">From 09/01/2019</span>
+                                            <p class="m-0 txt_for_img">untill 08/04/2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 skil_margin">
+                                        <img class="img1 mt-2 me-1" src="Assets/info.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">Skills</span>
+                                            <p class="m-0 txt_for_img">Teaching English</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
-                            <div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="px-1 mx-auto apply_view"> <span class="viewdetail"> View
+                                        Details</span><img src="Assets/right-arrow.png" alt=""
+                                        class="img1 ms-1"></button>
+                            </div>
+
+                        </div>
+
+                        <div class="only_grid_butn_skill_seat_duration">
+                            <div class="d-flex justify-content-between mx-3 mt-2">
                                 <div class="d-flex">
-                                    <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                    <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
                                     <div>
-                                        <span class="fs-6 mb-0">09/01/2019</span>
-                                        <p class="m-0">Deadline</p>
+                                        <span class="fs-6 mb-0">10</span>
+                                        <p class="m-0">Seats left</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0">09/01/2019</span>
+                                            <p class="m-0">Deadline</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png"
+                                        alt="" class="ms-2"></button>
+                            </div>
+
                         </div>
-                        <div class="d-flex apply-back border-top mt-4 mb-3 bo">
-                            <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png" alt=""
-                                    class="ms-2"></button>
-                        </div>
+
                     </div>
                 </div>
             </div>
+
+
             <!-- 5 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <div class="position-relative">
-                        <img src="Assets/Nourish-the-Children-in--African-country-1.png" class="card-img-top imgpos"
-                            alt="Palm Springs Road" />
-                        <span class=" position-absolute imgTitle">Nutrition</span>
+                    <div class="position-relative d-flex justify-content-end">
+                        <div class="position-absolute top-1 text-light  rounded-pill px-2 me-1 mt- backcolor">
+                            <img class="pin" src="Assets\pin.png" alt=""> Toronto
+                          </div>
+                        <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Avatar"
+                            class="imgmain">
+                            <div class="d-flex flex-column justify-content-end align-self-end position-absolute rounded-circle mt-5 pt-5 me-2">
+                                <a><img class="heart rounded-circle  p-2 mb-1 mt-4 backcolor" src="Assets\heart.png" alt=""></a>
+                                <a><img class="heart rounded-circle  p-2 backcolor" src="Assets\add1.png" alt="" ></a> 
+                                </div>
+                        <div class="mx-auto position-absolute imgTitle1">Environment</div>
                     </div>
                     <div class="card-body p-0 d-flex flex-column">
-                        <h5 class="card-title mx-3">Grow Trees - On the path to environment sustainability</h5>
+
+                        <div class="onlylistcol1 d-none justify-content-between d-flex mx-3 mt-2">
+                            <div>
+                                <img src="Assets/pin1.png" alt="loc" class="me-1 iconresize"><span
+                                    class="txtresize">Atianta</span>
+                                <img src="Assets/web.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">Environment</span>
+                                <img src="Assets/organization.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">tatva international carring foundation</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                            </div>
+
+                        </div>
+
+                        <h5 class="card-title mx-3 mt-3">Grow Trees - On the path to environment sustainability</h5>
                         <p class="card-text mx-3">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
                         </p>
-                        <div class="d-flex justify-content-between mx-3">
+                        <div class="onlygrid mx-3">
                             <p>Tree Canada</p>
                             <div>
                                 <img class="star" src="Assets/selected-star.png" alt="">
@@ -542,53 +835,132 @@
                                 <img class="star" src="Assets/selected-star.png" alt="">
                             </div>
                         </div>
-                        <div class="mx-auto px-2 py-1 rounded-pill border duration">
-                            From 10/01/2019 until 25/02/2019
+                        <div class=" position-relative maindiv_hr">
+                            <div class="mx-3 px-1 py-1 rounded-pill text-center border border-bottom duration durationnonelist position-relative subdiv_hr">
+                                From 10/01/2019 until 25/02/2019 
+                            </div>
+                            <hr class="position-relative final_hr">
                         </div>
 
-                        <div class="d-flex justify-content-between mx-2 mt-2">
-                            <div class="d-flex">
-                                <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
-                                <div>
-                                    <span class="fs-6 mb-0">10</span>
-                                    <p class="m-0">Seats left</p>
-                                </div>
-                            </div>
-                            <div class="">
-                                <div class="d-flex">
-                                    <img class="img1 mt-2 me-2" src="Assets/achieved.png" alt="Seats-left">
-                                    <div>
-                                        <div class="progress mt-2" role="progressbar" aria-label="Basic example"
-                                            aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                            <div class="progress-bar bg-warning" style="width: 25%"></div>
+                        <div class="only_list_butn_skill_seat_duration d-none px-2">
+                            <div class="whole mx-2 mt-2">
+                                <div class="col2_between">
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2" src="Assets/Seats-left.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">10</span>
+                                            <p class="m-0 txt_for_img">Seats left</p>
                                         </div>
-                                        <p class="m-0">8000 achieved</p>
+                                    </div>
+                                    <div class="d-flex ms-3 deadline_margin margin_grid">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">09/01/2019</span>
+                                            <p class="m-0 txt_for_img">Deadline</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col2_between">
+
+                                    <div class="d-flex ms-3 img1_margin_remove">
+                                        <img class="img1 mt-2 me-1" src="Assets/calender.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">From 09/01/2019</span>
+                                            <p class="m-0 txt_for_img">untill 08/04/2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 skil_margin">
+                                        <img class="img1 mt-2 me-1" src="Assets/info.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">Skills</span>
+                                            <p class="m-0 txt_for_img">Teaching English</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="px-1 mx-auto apply_view"> <span class="viewdetail"> View
+                                        Details</span><img src="Assets/right-arrow.png" alt=""
+                                        class="img1 ms-1"></button>
+                            </div>
+
+                        </div>
+
+                        <div class="only_grid_butn_skill_seat_duration">
+                            <div class="d-flex justify-content-between mx-3 mt-2">
+                                <div class="d-flex">
+                                    <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
+                                    <div>
+                                        <span class="fs-6 mb-0">10</span>
+                                        <p class="m-0">Seats left</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0">09/01/2019</span>
+                                            <p class="m-0">Deadline</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png"
+                                        alt="" class="ms-2"></button>
+                            </div>
+
                         </div>
-                        <div class="d-flex apply-back border-top mt-4 mb-3 bo">
-                            <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png" alt=""
-                                    class="ms-2"></button>
-                        </div>
+
                     </div>
                 </div>
             </div>
-
             <!-- 6 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <div class="position-relative">
-                        <img src="Assets/Nourish-the-Children-in--African-country-1.png" class="card-img-top imgpos"
-                            alt="Palm Springs Road" />
-                        <span class=" position-absolute imgTitle">Nutrition</span>
+                    <div class="position-relative d-flex justify-content-end">
+                        <div class="position-absolute top-1 text-light icon1 rounded-pill px-2 me-1 mt- backcolor">
+                            <img class="pin" src="Assets\pin.png" alt=""> Toronto
+                          </div>
+                        <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Avatar"
+                            class="imgmain">
+                            <div class="d-flex flex-column justify-content-end align-self-end position-absolute rounded-circle mt-5 pt-5 me-2">
+                                <a><img class="heart rounded-circle  p-2 mb-1 mt-4 backcolor" src="Assets\heart.png" alt=""></a>
+                                <a><img class="heart rounded-circle  p-2 backcolor" src="Assets\add1.png" alt="" ></a> 
+                                </div>
+                        <div class="mx-auto position-absolute imgTitle1">Environment</div>
                     </div>
                     <div class="card-body p-0 d-flex flex-column">
-                        <h5 class="card-title mx-3">Grow Trees - On the path to environment sustainability</h5>
+
+                        <div class="onlylistcol1 d-none justify-content-between d-flex mx-3 mt-2">
+                            <div>
+                                <img src="Assets/pin1.png" alt="loc" class="me-1 iconresize"><span
+                                    class="txtresize">Atianta</span>
+                                <img src="Assets/web.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">Environment</span>
+                                <img src="Assets/organization.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">tatva international carring foundation</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                            </div>
+
+                        </div>
+
+                        <h5 class="card-title mx-3 mt-3">Grow Trees - On the path to environment sustainability</h5>
                         <p class="card-text mx-3">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
                         </p>
-                        <div class="d-flex justify-content-between mx-3">
+                        <div class="onlygrid mx-3">
                             <p>Tree Canada</p>
                             <div>
                                 <img class="star" src="Assets/selected-star.png" alt="">
@@ -598,45 +970,133 @@
                                 <img class="star" src="Assets/selected-star.png" alt="">
                             </div>
                         </div>
-                        <div class="mx-auto px-2 py-1 rounded-pill border duration">
-                            From 10/01/2019 until 25/02/2019
+                        <div class=" position-relative maindiv_hr">
+                            <div class="mx-3 px-1 py-1 rounded-pill text-center border border-bottom duration durationnonelist position-relative subdiv_hr">
+                                From 10/01/2019 until 25/02/2019 
+                            </div>
+                            <hr class="position-relative final_hr">
                         </div>
 
-                        <div class="d-flex justify-content-between mx-2 mt-2">
-                            <div class="d-flex">
-                                <img class="img1 mt-2 me-2" src="Assets/achieved.png" alt="Seats-left">
-                                <div>
-                                    <div class="progress mt-2" role="progressbar" aria-label="Basic example"
-                                        aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">
-                                        <div class="progress-bar bg-warning" style="width: 25%"></div>
+                        <div class="only_list_butn_skill_seat_duration d-none px-2">
+                            <div class="whole mx-2 mt-2">
+                                <div class="col2_between">
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2" src="Assets/Seats-left.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">10</span>
+                                            <p class="m-0 txt_for_img">Seats left</p>
+                                        </div>
                                     </div>
-                                    <p class="m-0">8000 achieved</p>
+                                    <div class="d-flex ms-3 deadline_margin margin_grid">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">09/01/2019</span>
+                                            <p class="m-0 txt_for_img">Deadline</p>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col2_between">
+
+                                    <div class="d-flex ms-3 img1_margin_remove">
+                                        <img class="img1 mt-2 me-1" src="Assets/calender.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">From 09/01/2019</span>
+                                            <p class="m-0 txt_for_img">untill 08/04/2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 skil_margin">
+                                        <img class="img1 mt-2 me-1" src="Assets/info.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">Skills</span>
+                                            <p class="m-0 txt_for_img">Teaching English</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="px-1 mx-auto apply_view"> <span class="viewdetail"> View
+                                        Details</span><img src="Assets/right-arrow.png" alt=""
+                                        class="img1 ms-1"></button>
+                            </div>
+
+                        </div>
+
+                        <div class="only_grid_butn_skill_seat_duration">
+                            <div class="d-flex justify-content-between mx-3 mt-2">
+                                <div class="d-flex">
+                                    <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
+                                    <div>
+                                        <span class="fs-6 mb-0">10</span>
+                                        <p class="m-0">Seats left</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0">09/01/2019</span>
+                                            <p class="m-0">Deadline</p>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png"
+                                        alt="" class="ms-2"></button>
+                            </div>
+
                         </div>
-                        <div class="d-flex apply-back border-top mt-4 mb-3 bo">
-                            <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png" alt=""
-                                    class="ms-2"></button>
-                        </div>
+
                     </div>
                 </div>
             </div>
-
 
             <!-- 7 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <div class="position-relative">
-                        <img src="Assets/Nourish-the-Children-in--African-country-1.png" class="card-img-top imgpos"
-                            alt="Palm Springs Road" />
-                        <span class=" position-absolute imgTitle">Nutrition</span>
+                    <div class="position-relative d-flex justify-content-end">
+                        <div class="position-absolute top-1 text-light icon1 rounded-pill px-2 me-1 mt- backcolor">
+                            <img class="pin" src="Assets\pin.png" alt=""> Toronto
+                          </div>
+                        <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png" alt="Avatar"
+                            class="imgmain">
+                            <div class="d-flex flex-column justify-content-end align-self-end position-absolute rounded-circle mt-5 pt-5 me-2">
+                                <a><img class="heart rounded-circle p-2 mb-1 mt-4 backcolor" src="Assets\heart.png" alt=""></a>
+                                <a><img class="heart rounded-circle p-2 backcolor" src="Assets\add1.png" alt="" ></a> 
+                                </div>
+                        <div class="mx-auto position-absolute imgTitle1">Environment</div>
                     </div>
                     <div class="card-body p-0 d-flex flex-column">
-                        <h5 class="card-title mx-3">Grow Trees - On the path to environment sustainability</h5>
+
+                        <div class="onlylistcol1 d-none justify-content-between d-flex mx-3 mt-2">
+                            <div>
+                                <img src="Assets/pin1.png" alt="loc" class="me-1 iconresize"><span
+                                    class="txtresize">Atianta</span>
+                                <img src="Assets/web.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">Environment</span>
+                                <img src="Assets/organization.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">tatva international carring foundation</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                            </div>
+
+                        </div>
+
+                        <h5 class="card-title mx-3 mt-3">Grow Trees - On the path to environment sustainability</h5>
                         <p class="card-text mx-3">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
                         </p>
-                        <div class="d-flex justify-content-between mx-3">
+                        <div class="onlygrid mx-3">
                             <p>Tree Canada</p>
                             <div>
                                 <img class="star" src="Assets/selected-star.png" alt="">
@@ -646,49 +1106,132 @@
                                 <img class="star" src="Assets/selected-star.png" alt="">
                             </div>
                         </div>
-                        <div class="mx-auto px-2 py-1 rounded-pill border duration">
-                            From 10/01/2019 until 25/02/2019
+                        <div class=" position-relative maindiv_hr">
+                            <div class="mx-3 px-1 py-1 rounded-pill text-center border border-bottom duration durationnonelist position-relative subdiv_hr">
+                                From 10/01/2019 until 25/02/2019 
+                            </div>
+                            <hr class="position-relative final_hr">
                         </div>
 
-                        <div class="d-flex justify-content-between mx-3 mt-2">
-                            <div class="d-flex">
-                                <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
-                                <div>
-                                    <span class="fs-6 mb-0">10</span>
-                                    <p class="m-0">Seats left</p>
+                        <div class="only_list_butn_skill_seat_duration d-none px-2">
+                            <div class="whole mx-2 mt-2">
+                                <div class="col2_between">
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2" src="Assets/Seats-left.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">10</span>
+                                            <p class="m-0 txt_for_img">Seats left</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 deadline_margin margin_grid">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">09/01/2019</span>
+                                            <p class="m-0 txt_for_img">Deadline</p>
+                                        </div>
+                                    </div>
+
+
                                 </div>
+
+                                <div class="col2_between">
+
+                                    <div class="d-flex ms-3 img1_margin_remove">
+                                        <img class="img1 mt-2 me-1" src="Assets/calender.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">From 09/01/2019</span>
+                                            <p class="m-0 txt_for_img">untill 08/04/2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 skil_margin">
+                                        <img class="img1 mt-2 me-1" src="Assets/info.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">Skills</span>
+                                            <p class="m-0 txt_for_img">Teaching English</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
-                            <div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="px-1 mx-auto apply_view"> <span class="viewdetail"> View
+                                        Details</span><img src="Assets/right-arrow.png" alt=""
+                                        class="img1 ms-1"></button>
+                            </div>
+
+                        </div>
+
+                        <div class="only_grid_butn_skill_seat_duration">
+                            <div class="d-flex justify-content-between mx-3 mt-2">
                                 <div class="d-flex">
-                                    <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                    <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
                                     <div>
-                                        <span class="fs-6 mb-0">09/01/2019</span>
-                                        <p class="m-0">Deadline</p>
+                                        <span class="fs-6 mb-0">10</span>
+                                        <p class="m-0">Seats left</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0">09/01/2019</span>
+                                            <p class="m-0">Deadline</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png"
+                                        alt="" class="ms-2"></button>
+                            </div>
+
                         </div>
-                        <div class="d-flex apply-back border-top mt-4 mb-3 bo">
-                            <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png" alt=""
-                                    class="ms-2"></button>
-                        </div>
+
                     </div>
                 </div>
             </div>
             <!-- 8 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <div class="position-relative">
-                        <img src="Assets/Nourish-the-Children-in--African-country-1.png" class="card-img-top imgpos"
-                            alt="Palm Springs Road" />
-                        <span class=" position-absolute imgTitle">Nutrition</span>
+                    <div class="position-relative d-flex justify-content-end">
+                        <div class="position-absolute top-1 text-light icon1 rounded-pill px-2 me-1 mt- backcolor">
+                            <img class="pin" src="Assets\pin.png" alt=""> Toronto
+                          </div>
+                        <img src="Assets/Education-Supplies-for-Every--Pair-of-Shoes-Sold-1.png" alt="Avatar"
+                            class="imgmain">
+                            <div class="d-flex flex-column  justify-content-end align-self-end position-absolute rounded-circle mt-5 pt-5 me-2">
+                                <a><img class="heart rounded-circle  p-2 mb-1 mt-4 backcolor" src="Assets\heart.png" alt=""></a>
+                                <a><img class="heart rounded-circle p-2 backcolor" src="Assets\add1.png" alt="" ></a> 
+                                </div>
+                        <div class="mx-auto position-absolute imgTitle1">Children</div>
                     </div>
                     <div class="card-body p-0 d-flex flex-column">
-                        <h5 class="card-title mx-3">Grow Trees - On the path to environment sustainability</h5>
+
+                        <div class="onlylistcol1 d-none justify-content-between d-flex mx-3 mt-2">
+                            <div>
+                                <img src="Assets/pin1.png" alt="loc" class="me-1 iconresize"><span
+                                    class="txtresize">Atianta</span>
+                                <img src="Assets/web.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">Environment</span>
+                                <img src="Assets/organization.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">tatva international carring foundation</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                            </div>
+
+                        </div>
+
+                        <h5 class="card-title mx-3 mt-3">Education Supplies for Every Pair of Shoes Sold</h5>
                         <p class="card-text mx-3">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
                         </p>
-                        <div class="d-flex justify-content-between mx-3">
+                        <div class="onlygrid mx-3">
                             <p>Tree Canada</p>
                             <div>
                                 <img class="star" src="Assets/selected-star.png" alt="">
@@ -698,49 +1241,132 @@
                                 <img class="star" src="Assets/selected-star.png" alt="">
                             </div>
                         </div>
-                        <div class="mx-auto px-2 py-1 rounded-pill border duration">
-                            From 10/01/2019 until 25/02/2019
+                        <div class=" position-relative maindiv_hr">
+                            <div class="mx-3 px-1 py-1 rounded-pill text-center border border-bottom duration durationnonelist position-relative subdiv_hr">
+                                From 10/01/2019 until 25/02/2019 
+                            </div>
+                            <hr class="position-relative final_hr">
                         </div>
 
-                        <div class="d-flex justify-content-between mx-3 mt-2">
-                            <div class="d-flex">
-                                <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
-                                <div>
-                                    <span class="fs-6 mb-0">10</span>
-                                    <p class="m-0">Seats left</p>
+                        <div class="only_list_butn_skill_seat_duration d-none px-2">
+                            <div class="whole mx-2 mt-2">
+                                <div class="col2_between">
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2" src="Assets/Seats-left.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">10</span>
+                                            <p class="m-0 txt_for_img">Seats left</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 deadline_margin margin_grid">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">09/01/2019</span>
+                                            <p class="m-0 txt_for_img">Deadline</p>
+                                        </div>
+                                    </div>
+
+
                                 </div>
+
+                                <div class="col2_between">
+
+                                    <div class="d-flex ms-3 img1_margin_remove">
+                                        <img class="img1 mt-2 me-1" src="Assets/calender.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">From 09/01/2019</span>
+                                            <p class="m-0 txt_for_img">untill 08/04/2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 skil_margin">
+                                        <img class="img1 mt-2 me-1" src="Assets/info.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">Skills</span>
+                                            <p class="m-0 txt_for_img">Teaching English</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
-                            <div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="px-1 mx-auto apply_view"> <span class="viewdetail"> View
+                                        Details</span><img src="Assets/right-arrow.png" alt=""
+                                        class="img1 ms-1"></button>
+                            </div>
+
+                        </div>
+
+                        <div class="only_grid_butn_skill_seat_duration">
+                            <div class="d-flex justify-content-between mx-3 mt-2">
                                 <div class="d-flex">
-                                    <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                    <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
                                     <div>
-                                        <span class="fs-6 mb-0">09/01/2019</span>
-                                        <p class="m-0">Deadline</p>
+                                        <span class="fs-6 mb-0">10</span>
+                                        <p class="m-0">Seats left</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0">09/01/2019</span>
+                                            <p class="m-0">Deadline</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png"
+                                        alt="" class="ms-2"></button>
+                            </div>
+
                         </div>
-                        <div class="d-flex apply-back border-top mt-4 mb-3 bo">
-                            <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png" alt=""
-                                    class="ms-2"></button>
-                        </div>
+
                     </div>
                 </div>
             </div>
             <!-- 9 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <div class="position-relative">
-                        <img src="Assets/Nourish-the-Children-in--African-country-1.png" class="card-img-top imgpos"
-                            alt="Palm Springs Road" />
-                        <span class=" position-absolute imgTitle">Nutrition</span>
+                    <div class="position-relative d-flex justify-content-end">
+                        <div class="position-absolute top-1 text-light icon1 rounded-pill px-2 me-1 mt- backcolor">
+                            <img class="pin" src="Assets\pin.png" alt=""> Toronto
+                          </div>
+                        <img src="Assets/Nourish-the-Children-in--African-country-1.png" alt="Avatar" class="imgmain">
+                        <div class="d-flex flex-column justify-content-end align-self-end position-absolute rounded-circle mt-5 pt-5 me-2">
+                            <a><img class="heart rounded-circle  p-2 mb-1 mt-4 backcolor" src="Assets\heart.png" alt=""></a>
+                            <a><img class="heart rounded-circle  p-2 backcolor" src="Assets\add1.png" alt="" ></a> 
+                            </div>
+                        <div class="mx-auto position-absolute imgTitle1">Nuetrision</div>
                     </div>
                     <div class="card-body p-0 d-flex flex-column">
-                        <h5 class="card-title mx-3">Grow Trees - On the path to environment sustainability</h5>
+
+                        <div class="onlylistcol1 d-none justify-content-between d-flex mx-3 mt-2">
+                            <div>
+                                <img src="Assets/pin1.png" alt="loc" class="me-1 iconresize"><span
+                                    class="txtresize">Atianta</span>
+                                <img src="Assets/web.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">Environment</span>
+                                <img src="Assets/organization.png" alt="loc" class="ms-1 me-1 iconresize"><span
+                                    class="txtresize">tatva international carring foundation</span>
+                            </div>
+                            <div class="d-flex">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                                <img src="Assets/selected-star.png" alt="" class="starresize">
+                            </div>
+
+                        </div>
+
+                        <h5 class="card-title mx-3 mt-3">Nourish the Children in
+                            African country</h5>
                         <p class="card-text mx-3">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
                         </p>
-                        <div class="d-flex justify-content-between mx-3">
+                        <div class="onlygrid mx-3">
                             <p>Tree Canada</p>
                             <div>
                                 <img class="star" src="Assets/selected-star.png" alt="">
@@ -750,52 +1376,107 @@
                                 <img class="star" src="Assets/selected-star.png" alt="">
                             </div>
                         </div>
-                        <div class="mx-auto px-2 py-1 rounded-pill border duration">
-                            From 10/01/2019 until 25/02/2019
+                        <div class=" position-relative" id="maindiv_hr_last">
+                            <div class="mx-4 px-1 py-1 rounded-pill text-center border border-bottom duration durationnonelist position-relative subdiv_hr" >
+                                From 10/01/2019 until 25/02/2019 
+                            </div>
+                            <hr class="position-relative final_hr" >
                         </div>
 
-                        <div class="d-flex justify-content-between mx-3 mt-2">
-                            <div class="d-flex">
-                                <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
-                                <div>
-                                    <span class="fs-6 mb-0">10</span>
-                                    <p class="m-0">Seats left</p>
+                        <div class="only_list_butn_skill_seat_duration d-none px-2">
+                            <div class="whole mx-2 mt-2">
+                                <div class="col2_between">
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2" src="Assets/Seats-left.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">10</span>
+                                            <p class="m-0 txt_for_img">Seats left</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 deadline_margin margin_grid">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">09/01/2019</span>
+                                            <p class="m-0 txt_for_img">Deadline</p>
+                                        </div>
+                                    </div>
+
+
                                 </div>
+
+                                <div class="col2_between">
+
+                                    <div class="d-flex ms-3 img1_margin_remove">
+                                        <img class="img1 mt-2 me-1" src="Assets/calender.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">From 09/01/2019</span>
+                                            <p class="m-0 txt_for_img">untill 08/04/2019</p>
+                                        </div>
+                                    </div>
+                                    <div class="d-flex ms-3 skil_margin">
+                                        <img class="img1 mt-2 me-1" src="Assets/info.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0 txt_for_img">Skills</span>
+                                            <p class="m-0 txt_for_img">Teaching English</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+
                             </div>
-                            <div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="px-1 mx-auto apply_view"> <span class="viewdetail"> View
+                                        Details</span><img src="Assets/right-arrow.png" alt=""
+                                        class="img1 ms-1"></button>
+                            </div>
+
+                        </div>
+
+                        <div class="only_grid_butn_skill_seat_duration">
+                            <div class="d-flex justify-content-between mx-3 mt-2">
                                 <div class="d-flex">
-                                    <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                    <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
                                     <div>
-                                        <span class="fs-6 mb-0">09/01/2019</span>
-                                        <p class="m-0">Deadline</p>
+                                        <span class="fs-6 mb-0">10</span>
+                                        <p class="m-0">Seats left</p>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0">09/01/2019</span>
+                                            <p class="m-0">Deadline</p>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
+                            <div class="d-flex apply-back border-top mt-4 mb-3 bo">
+                                <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png"
+                                        alt="" class="ms-2"></button>
+                            </div>
+
                         </div>
-                        <div class="d-flex apply-back border-top mt-4 mb-3 bo">
-                            <button class="py-2 px-3 mt-2 mx-auto apply">Apply <img src="Assets/right-arrow.png" alt=""
-                                    class="ms-2"></button>
-                        </div>
+
                     </div>
                 </div>
             </div>
+
         </div>
 
-    </div>
 
 
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="JS\listgrid.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="JS\listgrid.js"></script>
-
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-        crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+            crossorigin="anonymous"></script>
 </body>
 
 </html>

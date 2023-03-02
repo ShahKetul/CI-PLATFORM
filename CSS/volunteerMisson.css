@@ -69,7 +69,7 @@
 
 
 .filter-list {
-    / padding:6px 10px;  /
+     padding:6px 10px;  
     background-color: white;
     border: 1px solid #808080;
     border-radius: 20px;
@@ -121,19 +121,6 @@
     height: 408px;
     overflow-y: auto;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 img {
@@ -194,13 +181,12 @@ img {
     clear: both;
   }
   
-  / / Six columns side by side / /
   .column {
     float: left;
     width: 16.66%;
   }
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:767px) {
     #filter{
         flex-direction: column !important;
     }  
