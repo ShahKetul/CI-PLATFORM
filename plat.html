@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/plat.css">
+</head>
+<body>
+
+    <div class="d-flex mt-4 mx-5 justify-content-between" id="gridList">
+        <h3 class="ms-3">Explore 72 missions</h3>
+        <div class="d-flex mx-3">
+            <select class="form-select mx-2 pe-5" aria-label="Default select example">
+                <option selected>Sort by</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+            </select>
+
+            <button class="border-0 btn btn-grid"><img src="Assets/grid.png" alt="grid"></button>
+            <button class="border-0 btn px-0 btn-list"><img src="Assets/list.png" alt="list"></button>
+        </div>
+    </div>
+
+    <div class="container grid-container">
+        <div class="row g-4 mx-auto mt-1">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card  d-flex">
+                            <div class="d-flex flex-column position-relative">
+                                <div class="align-self-end position-absolute top-1 text-light icon rounded-pill px-2 me-1 mt-1">
+                                    <img class="pin" src="Assets/pin.png" alt=""> @mission.City.Name
+                                </div>
+                                <img src="Assets/Grow-Trees-On-the-path-to-environment-sustainability-1.png" class="card-img-top h-100"
+                             alt="Skyscrapers" />
+                                <div class="d-flex flex-column align-self-end position-absolute rounded-circle mt-5 pt-5 me-2">
+                                    <a><img class="heart rounded-circle icon p-2 mb-1 mt-4" src="Assets/heart.png" alt=""></a>
+                                    <a><img class="heart rounded-circle icon p-2" src="Assets/add1.png" alt=""></a>
+                                </div>
+                                <div class="mx-auto d-flex position-absolute px-3 imgTitle">@mission.Theme.Title</div>
+                            </div>
+                            <div class="card-body d-flex flex-column">
+                                <div class="d-flex justify-content-between card-start d-none">
+                                    <div class="d-flex">
+                                        <div class="me-2">
+                                            <img src="Assets/pin1.png" alt="">
+                                            <span>@mission.City.Name</span>
+                                        </div>
+                                        <div class="me-2">
+                                            <img src="Assets/web.png" alt="">
+                                            <span>@mission.Theme.Title</span>
+                                        </div>
+                                        <div>
+                                            <img src="Assets/organization.png" alt="">
+                                            <span>@mission.OrganizationName</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div>
+                                            <img class="star" src="Assets/selected-star.png" alt="">
+                                            <img class="star" src="Assets/selected-star.png" alt="">
+                                            <img class="star" src="Assets/selected-star.png" alt="">
+                                            <img class="star" src="Assets/selected-star.png" alt="">
+                                            <img class="star" src="Assets/selected-star.png" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <h5 class="card-title">@mission.Theme.Title</h5>
+                                <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci</p>
+                                <div class="d-flex justify-content-between grid-element">
+                                    <p>@mission.OrganizationName</p>
+                                    <div>
+                                        <img class="star" src="Assets/selected-star.png" alt="">
+                                        <img class="star" src="Assets/selected-star.png" alt="">
+                                        <img class="star" src="Assets/selected-star.png" alt="">
+                                        <img class="star" src="Assets/selected-star.png" alt="">
+                                        <img class="star" src="Assets/selected-star.png" alt="">
+                                    </div>
+                                </div>
+                                <div class="mx-auto px-2 py-1 rounded-pill border duration d-flex grid-element">
+                                    From @mission.StartDate?.ToString("d") until @mission.EndDate?.ToString("d")
+                                </div>
+                                <div class="d-none justify-content-between mx-2 mt-2 flex-wrap card-start">
+                                    <div class="d-flex flex-wrap justify-content-between ">
+                                        <div class="d-flex me-2">
+                                            <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">&nbsp;
+                                            <div>
+                                                <span class="fs-6 mb-0">@mission.Availability</span>
+                                                <p class="m-0">Seats left</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex me-2">
+                                            <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Deadline">&nbsp;
+                                            <div>
+                                                <span class="fs-6 mb-0">@mission.EndDate?.ToString("d")</span>
+                                                <p class="m-0">Deadline</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex me-2">
+                                            <img class="img1 mt-2 me-1" src="Assets/calender.png" alt="Deadline">&nbsp;
+                                            <div>
+                                                <p class="m-0">From @mission.StartDate?.ToString("d")</p>
+                                                <p class="m-0">until @mission.EndDate?.ToString("d")</p>
+                                            </div>
+                                        </div>
+                                        <div class="d-flex">
+                                            <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Deadline">&nbsp;
+                                            <div>
+                                                <span class="fs-6 mb-0">Skills</span>
+                                                <p class="m-0">Botany</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <button class="py-2 px-3 mx-auto apply">View Details <img src="Assets/right-arrow.png" alt="" class="ms-2"></button>
+                                    </div>
+                                </div>
+                                <div class="d-flex justify-content-between mx-2 mt-2 grid-element">
+                                    <div class="d-flex">
+                                        <img class="img1 mt-2 me-1" src="Assets/Seats-left.png" alt="Seats-left">
+                                        <div>
+                                            <span class="fs-6 mb-0">@mission.Availability</span>
+                                            <p class="m-0">Seats left</p>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <div class="d-flex">
+                                            <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Deadline">
+                                            <div>
+                                                <span class="fs-6 mb-0">@mission.EndDate?.ToString("d")</span>
+                                                <p class="m-0">Deadline</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class=" d-flex grid-element">
+                                    <button class="py-2 px-3 mx-auto apply">
+                                        Apply <img src="Assets/right-arrow.png" alt="" class="ms-2">
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                            </div>
+    
+    
+    
+            
+    </div>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+<script>
+function showList(e) {
+    var $gridCont = $('.grid-container');
+    var $cardstart = $('.card-start');
+    var $grid_element = $('.grid-element');
+    e.preventDefault();
+    $gridCont.addClass('list-view');
+    //$gridCont.hasClass('list-view') ? $gridCont.removeClass('list-view') : $gridCont.addClass('list-view');
+    $cardstart.removeClass('d-none');
+    $cardstart.addClass('d-flex');
+    $grid_element.removeClass('d-flex');
+    $grid_element.addClass('d-none');
+}
+function gridList(e) {
+    var $gridCont = $('.grid-container')
+    var $cardstart = $('.card-start');
+    var $grid_element = $('.grid-element');
+    // e.preventDefault();
+    $gridCont.removeClass('list-view');
+    $cardstart.addClass('d-flex');
+    $cardstart.addClass('d-none');
+    $grid_element.removeClass('d-none');
+    $grid_element.addClass('d-flex');
+}
+
+$(document).on('click', '.btn-grid', gridList);
+$(document).on('click', '.btn-list', showList);
+</script>
+    
+</body>
+</html>

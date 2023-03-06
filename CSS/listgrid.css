@@ -2,11 +2,21 @@
     width: 50px;
     height: 50px;
 }
+.im_main_12{
+display: flex;
+flex-grow: 50;
+}
 
 #prof-drop{
     position: absolute;
     right: 5px;
     top: 3px;
+}
+#login_register_button{
+  display: none;
+  position: absolute;
+  right: 5px;
+  top: 10px;
 }
 
 #search-border{
@@ -113,9 +123,12 @@
     .card-body {
       display: inline-block;
     }
+
   }
 }
-
+.card-body-dupli{
+  width: 70% !important;
+}
 .card {
     margin-bottom: 1rem;
   }
@@ -157,7 +170,6 @@
 }
 .whole{
   display: flex;
-  flex-wrap: wrap;
 }
 .maindiv_hr{
   height: 33px;
@@ -204,9 +216,6 @@
 }
 
 @media screen and (max-width: 1001.70px) {
-  .only_list_butn_skill_seat_duration{
-    flex-direction: column;
-  }
   .apply_view{
     margin: unset;
   }
@@ -217,25 +226,14 @@
         font-size: 11px;
     }
 }
-
 @media screen and (max-width:991.20px) {
-  .img1_margin_remove{
-    margin-left: unset !important;
-  }
-  .skil_margin{
-    margin-right:-41% ;
-  }
-  .deadline_margin{
-    margin-right: -95%;
-  }
-  .skil_margin1{
-    margin-right:-89% ;
-  }
-  .col2_between{
- justify-content: space-between;
-  }
   
+  .only_list_butn_skill_seat_duration{
+    flex-direction: column;
+  }
 }
+
+
   @media (max-width: 767.20px){
 
     .imgTitle{
@@ -253,44 +251,24 @@
     }
     .noborder{
         border: none !important;
-    }
-    .skil_margin{
-      margin-right: unset !important;
-    }
-    .deadline_margin{
-      margin-right: -32% !important;
     } 
-    .skil_margin1{
-      margin-right: unset !important;
-    } 
-
-
+    .whole{
+      flex-direction: column !important;
+    }
+    .col2_between{
+      display: flex;
+      justify-content: space-between;
+    }
   }
 
   @media (max-width: 575.98px) {
     .list-view .card {
       flex-direction: column;
     }
-    .img1_margin_remove{
-      margin-left: 30px !important;
-    }
+
   }
 
-  @media (max-width: 556px) {
-    .whole{
-      flex-direction: column !important;
-    }
-    .margin_grid{
-      margin-right: 30px !important;
-    }
-    .img1_margin_remove{
-      margin-left: unset !important;
-    }
-  }
-
-  @media (max-width: 550px) {
  
-  }
 
   .list-view .card > .card-img-top {
     width: auto;
@@ -311,5 +289,8 @@
     }
     #gridList{
         display: none !important;
+    }
+    .card-body-dupli{
+      width: 100% !important;
     }
 }

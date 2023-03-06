@@ -50,7 +50,13 @@
                 </ul>
             </div>
         </div>
+
     </nav>
+    <div class="d-flex d-none" id="login_register_button">
+        <button class="btn btn-primary me-1">Login</button>
+        <button class="btn btn-primary">Register</button>
+    </div>
+
     <div class="dropdown mx-5" id="prof-drop">
         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="Assets/user-img.png" class="rounded-circle" alt="profile">
@@ -58,7 +64,7 @@
         </a>
         <ul class="dropdown-menu" id="drop-pos">
             <li><a class="dropdown-item" href="#">Policy</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
+            <li><button class="btn border-0" onclick="dis_login_register()"> logout</button></li>
             <li>
                 <hr class="dropdown-divider">
             </li>
@@ -185,7 +191,9 @@
                         </div>
                     </ul>
                 </li>
+                
                 <li class="list-group-item dropdown border-end col-md-3 pt-3 pb-3 noborder">
+
                     <a class="nav-link dropdown-toggle text-center" href="#" role="button" data-bs-toggle="dropdown"
                         aria-expanded="false">
                         Skills
@@ -245,7 +253,7 @@
             <!-- 1 -->
             <div class="col-lg-4 col-md-6 mb-4">
                 <div class="card">
-                    <div class="position-relative d-flex justify-content-end">
+                    <div class="position-relative d-flex justify-content-end ">
                         <div class="position-absolute top-1 text-light icon1 rounded-pill px-2 me-1 mt-3 backcolor">
                             <img class="pin" src="Assets\pin.png" alt=""> Toronto
                           </div>
@@ -279,8 +287,10 @@
                         </div>
 
                         <h5 class="card-title mx-3 mt-3">Grow Trees - On the path to environment sustainability</h5>
-                        <p class="card-text mx-3">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
+                        <p class="card-text d-flex flex-wrap mx-3" style="h">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci Lorem ipsum dolor sit amet consectetur 
+                            adipisicing elit. Culpa deleniti quis facilis praesentium earum? Explicabo doloribus maiores perspiciatis,
+                             
                         </p>
                         <div class="onlygrid mx-3">
                             <p>Tree Canada</p>
@@ -302,7 +312,7 @@
 
                         <div class="only_list_butn_skill_seat_duration d-none px-2">
                             <div class="whole mx-2 mt-2">
-                                <div class="col2_between">
+                                <div class="col2_between justify-content-between">
                                     <div class="d-flex">
                                         <img class="img1 mt-2" src="Assets/Seats-left.png" alt="Seats-left">
                                         <div>
@@ -310,27 +320,25 @@
                                             <p class="m-0 txt_for_img">Seats left</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex ms-3 deadline_margin margin_grid">
+                                    <div class="d-flex ms-3 ">
                                         <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
                                         <div>
                                             <span class="fs-6 mb-0 txt_for_img">09/01/2019</span>
                                             <p class="m-0 txt_for_img">Deadline</p>
                                         </div>
                                     </div>
-
-
                                 </div>
 
                                 <div class="col2_between">
 
-                                    <div class="d-flex ms-3 img1_margin_remove">
+                                    <div class="d-flex ms-3">
                                         <img class="img1 mt-2 me-1" src="Assets/calender.png" alt="Seats-left">
                                         <div>
                                             <span class="fs-6 mb-0 txt_for_img">From 09/01/2019</span>
                                             <p class="m-0 txt_for_img">untill 08/04/2019</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex ms-3 skil_margin">
+                                    <div class="d-flex ms-3">
                                         <img class="img1 mt-2 me-1" src="Assets/info.png" alt="Seats-left">
                                         <div>
                                             <span class="fs-6 mb-0 txt_for_img">Skills</span>
@@ -416,7 +424,9 @@
 
                         <h5 class="card-title mx-3 mt-3">Education Supplies for Every Pair of Shoes Sold</h5>
                         <p class="card-text mx-3">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Adipisci Lorem ipsum dolor, sit amet consectetur 
+                            adipisicing elit. Cupiditate minus assumenda nam veniam perspiciatis cumque atque molestias fugiat repellat? 
+                            ad rem cupiditate velit alias, eveniet sunt quo reiciendis dicta. Eos aliquid officia ipsa inventore! Molestiae!
                         </p>
                         <div class="onlygrid mx-3">
                             <p>Tree Canada</p>
@@ -437,15 +447,15 @@
 
                         <div class="only_list_butn_skill_seat_duration d-none px-2">
                             <div class="whole mx-2 mt-2">
-                                <div class="col2_between">
-                                    <div class="d-flex">
+                                <div class="col2_between ">
+                                    <div class="d-flex ">
                                         <img class="img1 mt-2" src="Assets/Seats-left.png" alt="Seats-left">
                                         <div>
                                             <span class="fs-6 mb-0 txt_for_img">10</span>
                                             <p class="m-0 txt_for_img">Seats left</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex ms-3 deadline_margin margin_grid">
+                                    <div class="d-flex me-4 ">
                                         <img class="img1 mt-2 me-1" src="Assets/hours.png" alt="Seats-left">
                                         <div>
                                             <span class="fs-6 mb-0 txt_for_img">09/01/2019</span>
@@ -458,14 +468,14 @@
 
                                 <div class="col2_between">
 
-                                    <div class="d-flex ms-3 img1_margin_remove">
+                                    <div class="d-flex">
                                         <img class="img1 mt-2 me-1" src="Assets/calender.png" alt="Seats-left">
                                         <div>
                                             <span class="fs-6 mb-0 txt_for_img">From 09/01/2019</span>
                                             <p class="m-0 txt_for_img">untill 08/04/2019</p>
                                         </div>
                                     </div>
-                                    <div class="d-flex ms-3 skil_margin">
+                                    <div class="d-flex ms-3 ">
                                         <img class="img1 mt-2 me-1" src="Assets/info.png" alt="Seats-left">
                                         <div>
                                             <span class="fs-6 mb-0 txt_for_img">Skills</span>

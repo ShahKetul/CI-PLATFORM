@@ -9,6 +9,8 @@ function showList(e) {
     var $butn_skill_seat_duration= $('.only_grid_butn_skill_seat_duration');
     var $only_list_butn_skill_seat_duration =$('.only_list_butn_skill_seat_duration');
     var $final_hr = $('.final_hr');
+    var $card_body_dupli = $('.card-body');
+
     e.preventDefault();
     $gridCont.hasClass('list-view') ? $gridCont.removeClass('list-view') : $gridCont.addClass('list-view');
     $bor.hasClass('list-view') ? $bor.addClass('border-0') : $bor.removeClass('border-top');
@@ -18,6 +20,7 @@ function showList(e) {
     $butn_skill_seat_duration.hasClass('list-view') ? $butn_skill_seat_duration.removeClass('d-none') : $butn_skill_seat_duration.addClass('d-none');
     $only_list_butn_skill_seat_duration.hasClass('list-view') ? $only_list_butn_skill_seat_duration.addClass('.only_list_butn_skill_seat_duration') : $only_list_butn_skill_seat_duration.removeClass('d-none');
     $final_hr.hasClass('list-view') ? $final_hr.removeClass('d-none') : $final_hr.addClass('d-none');
+    $card_body_dupli.addClass('card-body-dupli')
   }
   function gridList(e) {
     var $gridCont = $('.grid-container')
@@ -28,6 +31,7 @@ function showList(e) {
     var $butn_skill_seat_duration= $('.only_grid_butn_skill_seat_duration');
     var $only_list_butn_skill_seat_duration =$('.only_list_butn_skill_seat_duration');
     var $final_hr = $('.final_hr');
+    var $card_body_dupli = $('.card-body-dupli');
     // e.preventDefault();
     $gridCont.removeClass('list-view');
     $onlylistcol1.addClass('d-none');
@@ -39,8 +43,10 @@ function showList(e) {
     $butn_skill_seat_duration.removeClass('d-none');
     $butn_skill_seat_duration.addClass('.butn_skill_seat_duration');
     $only_list_butn_skill_seat_duration.addClass('d-none');
+    $onlygrid.removeClass('d-none');
    $onlygrid.addClass('.onlygrid');
-   $final_hr.removeClass('d-none')
+   $final_hr.removeClass('d-none');
+   $card_body_dupli.removeClass('card-body-dupli');
   }
   
   $(document).on('click', '.btn-grid', gridList);
@@ -120,4 +126,12 @@ function removeElement(value) {
     let elementToBeRemoved = document.getElementById(value);
     filtersSection.removeChild(elementToBeRemoved);
 
+}
+
+function dis_login_register(){
+    document.getElementById("login_register_button").classList.remove("d-none");
+    document.getElementById("login_register_button").classList.toggle("d-block");
+    document.getElementById("prof-drop").classList.toggle("d-none");
+
+    
 }
