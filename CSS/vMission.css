@@ -1,0 +1,11 @@
+.add{
+    border: 2px solid orange; 
+    border-radius: 20px;
+    color: orange;
+    background-color: white;
+}
+
+.font{
+    font-size: 14px;
+
+}

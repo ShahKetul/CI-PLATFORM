@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.apply{
+    border: 2px solid orange; 
+    border-radius: 20px;
+    color: orange;
+    background-color: white;
+}
+.recomand{
+    border: 2px solid #808080; 
+    border-radius: 20px;
+    color: #808080;
+    background-color: white;
+}
+
+
+.sphoto{
+    height: 74px;
+    width: 77px;
+}
+.usernametxt{
+    color: #888;
+}
+.eye{
+    width: 20px;
+    height: 14px;
+}
+.main {
+    font-family:Arial;
+    width:100%;
+    display:block;
+    margin:0 auto;
+  }
+  
+  .action{
+    display:block;
+    margin:100px auto;
+    width:100%;
+    text-align:center;
+  }
+  .action a {
+    display:inline-block;
+    padding:5px 10px; 
+    background:#f30;
+    color:#fff;
+    text-decoration:none;
+  }
+  .action a:hover{
+    background:#000;
+  }
+  
+  .slick-dots{
+    display: none !important;
+  }
+  .slider button{
+    display: none !important ;
+  }
+  .hr_storydetail{
+    width: 133px;
+    bottom: -18px;
+    border: 2px solid black;
+  }
+  .slider-nav img{
+    height: 100px;
+    width: 98% ;
+  }
+  
+  .slider-for img{
+    height: 480px;
+  }

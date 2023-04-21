@@ -3,10 +3,8 @@
     height: 50px;
 }
 
-#prof-drop{
-    position: absolute;
-    right: 5px;
-    top: 3px;
+.paddingForHeader{
+    padding-left: 15px !important;
 }
 
 #search-border{

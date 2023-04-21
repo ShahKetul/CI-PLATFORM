@@ -1,0 +1,39 @@
+<textarea id="myTextarea"></textarea>
+
+<button onclick="formatText('bold')">Bold</button>
+<button onclick="formatText('italic')">Italic</button>
+<button onclick="formatText('strikethrough')">Strikethrough</button>
+<button onclick="formatText('superscript')">Superscript</button>
+<button onclick="formatText('subscript')">Subscript</button>
+
+<script>
+function formatText(command) {
+  var textarea = document.getElementById('myTextarea');
+  var start = textarea.selectionStart;
+  var end = textarea.selectionEnd;
+  var selectedText = textarea.value.substring(start, end);
+  var newText;
+
+  switch (command) {
+    case 'bold':
+      newText = "<b>" + selectedText + "</b>";
+      break;
+    case 'italic':
+      newText = "<i>" + selectedText + "</i>";
+      break;
+    case 'strikethrough':
+      newText = "<strike>" + selectedText + "</strike>";
+      break;
+    case 'superscript':
+      newText = "<sup>" + selectedText + "</sup>";
+      break;
+    case 'subscript':
+      newText = "<sub>" + selectedText + "</sub>";
+      break;
+    default:
+      return;
+  }
+
+  textarea.value = textarea.value.substring(0, start) + newText + textarea.value.substring(end);
+}
+</script>
